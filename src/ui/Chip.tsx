@@ -1,4 +1,4 @@
-import { Pressable, StyleSheet, View, type ViewStyle } from 'react-native';
+import { Pressable, StyleSheet, View, type StyleProp, type ViewStyle } from 'react-native';
 import { palette, radius, spacing } from '../theme/tokens';
 import { Text } from './Text';
 
@@ -9,7 +9,7 @@ interface ChipProps {
   disabled?: boolean;
   /** Overrides the selected accent. Used to tint Quench chips by virtue. */
   accentColor?: string;
-  style?: ViewStyle;
+  style?: StyleProp<ViewStyle>;
   testID?: string;
 }
 
@@ -29,11 +29,11 @@ export function Chip({
     </Text>
   );
 
-  const composed: ViewStyle[] = [
+  const composed: StyleProp<ViewStyle>[] = [
     styles.base,
     selected ? { borderColor: accent, backgroundColor: `${accent}1F` } : styles.resting,
-    disabled ? styles.disabled : {},
-    style ?? {},
+    disabled ? styles.disabled : null,
+    style,
   ];
 
   if (!onPress) return <View style={composed} testID={testID}>{body}</View>;

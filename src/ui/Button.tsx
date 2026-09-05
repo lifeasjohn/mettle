@@ -1,4 +1,4 @@
-import { ActivityIndicator, Pressable, StyleSheet, View, type ViewStyle } from 'react-native';
+import { ActivityIndicator, Pressable, StyleSheet, View, type StyleProp, type ViewStyle } from 'react-native';
 import { palette, radius, spacing } from '../theme/tokens';
 import { Text } from './Text';
 
@@ -12,7 +12,7 @@ interface ButtonProps {
   loading?: boolean;
   /** Small print under the label. Used on the paywall for price framing. */
   sublabel?: string;
-  style?: ViewStyle;
+  style?: StyleProp<ViewStyle>;
   testID?: string;
 }
 

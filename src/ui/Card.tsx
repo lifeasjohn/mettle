@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { Pressable, StyleSheet, View, type ViewStyle } from 'react-native';
+import { Pressable, StyleSheet, View, type StyleProp, type ViewStyle } from 'react-native';
 import { palette, radius, spacing } from '../theme/tokens';
 
 interface CardProps {
@@ -10,7 +10,7 @@ interface CardProps {
   /** Dims and desaturates. Use for locked lessons and spent spars. */
   muted?: boolean;
   padded?: boolean;
-  style?: ViewStyle;
+  style?: StyleProp<ViewStyle>;
   testID?: string;
 }
 

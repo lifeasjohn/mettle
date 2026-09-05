@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { ScrollView, StyleSheet, View, type ViewStyle } from 'react-native';
+import { ScrollView, StyleSheet, View, type StyleProp, type ViewStyle } from 'react-native';
 import { SafeAreaView, type Edge } from 'react-native-safe-area-context';
 import { palette, spacing } from '../theme/tokens';
 
@@ -12,7 +12,7 @@ interface ScreenProps {
   edges?: readonly Edge[];
   /** Pinned to the bottom, outside the scroll area. The dominant CTA lives here. */
   footer?: ReactNode;
-  style?: ViewStyle;
+  style?: StyleProp<ViewStyle>;
 }
 
 export function Screen({
