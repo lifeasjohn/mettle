@@ -120,6 +120,9 @@ const FLOWS = {
     type('round-input', 'Same answer. It is not in my power what he does. My part is the record, and I will handle it without heat.'),
     tapId('submit-round'),
     shot('34-verdict'),
+    tap('Share'),
+    shot('36-share-card'),
+    tap('Close'),
     tapId('verdict-done'),
     shot('35-after-verdict'),
 
@@ -150,6 +153,9 @@ const FLOWS = {
     shot('52-pattern-timeline'),
     tap('Arena'),
     shot('53-arena'),
+    tap('Today'),
+    tap('Settings'),
+    shot('54-settings'),
   ],
 };
 

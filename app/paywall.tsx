@@ -1,8 +1,9 @@
 import { useRouter } from 'expo-router';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { FREE_SPAR_ALLOWANCE } from '../src/domain';
 import { PATH_NOUN } from '../src/features/onboarding/steps';
+import { track } from '../src/lib/analytics';
 import { useMettle } from '../src/state/store';
 import { palette, radius, spacing } from '../src/theme/tokens';
 import { Button, Card, Screen, Text } from '../src/ui';
@@ -31,8 +32,13 @@ export default function Paywall() {
   const tempered = spars.filter((s) => s.verdict === 'tempered').length;
   const noun = profile ? PATH_NOUN[profile.strugglePath].toLowerCase() : 'this';
 
+  useEffect(() => {
+    track({ name: 'paywall_view', sparsUsed: spars.length });
+  }, [spars.length]);
+
   const go = async () => {
     setBusy(true);
+    track({ name: 'paywall_subscribe', plan });
     await subscribe();
     router.replace('/arena');
   };

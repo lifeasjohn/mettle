@@ -14,6 +14,7 @@ import {
   type SparRound,
 } from '../src/domain';
 import { useRadar, useSeenConceptIds, useSeenScenarioIds } from '../src/state/hooks';
+import { track } from '../src/lib/analytics';
 import { useMettle } from '../src/state/store';
 import { palette, radius, spacing, verdictColor } from '../src/theme/tokens';
 import { Button, Card, Chip, CrisisScreen, Screen, Text, TextArea, VerdictBadge } from '../src/ui';
@@ -74,6 +75,7 @@ export default function Spar() {
   const [result, setResult] = useState<Extract<SparScoreResult, { crisis: false }> | null>(null);
   const [peer, setPeer] = useState<string | null>(null);
   const saved = useRef(false);
+  const savedId = useRef<string | null>(null);
 
   const permission = canSpar(entitlement);
   const lastFree = isFinalFreeSpar(entitlement);
@@ -104,6 +106,7 @@ export default function Spar() {
 
     // A crisis result carries no verdict, so there is nothing to show or store.
     if (scored.crisis) {
+      track({ name: 'crisis_guardrail', surface: 'arena', layer: 1 });
       setPhase({ kind: 'crisis' });
       return;
     }
@@ -116,7 +119,7 @@ export default function Spar() {
 
     if (!saved.current) {
       saved.current = true;
-      await saveSpar({
+      savedId.current = await saveSpar({
         scenarioId: scenario.id,
         path: scenario.path,
         virtue: scenario.virtue,
@@ -135,6 +138,7 @@ export default function Spar() {
       });
     }
 
+    track({ name: 'spar_complete', verdict: scored.verdict, rounds: nextResponses.length });
     setPhase({ kind: 'verdict' });
   }, [draft, responses, repo, scenario, prompts, instinct, saveSpar]);
 
@@ -146,6 +150,7 @@ export default function Spar() {
     );
     if (delivery) {
       await markConceptDelivered(delivery.concept.id);
+      track({ name: 'concept_delivered', conceptId: delivery.concept.id, reason: delivery.reason });
       setPhase({ kind: 'concept', delivery });
       return;
     }
@@ -175,7 +180,10 @@ export default function Spar() {
           selected={instinct}
           onSelect={setInstinct}
           lastFree={lastFree}
-          onStart={() => setPhase({ kind: 'write', round: 0 })}
+          onStart={() => {
+            track({ name: 'spar_start', scenarioId: scenario.id, source: selection.source });
+            setPhase({ kind: 'write', round: 0 });
+          }}
         />
       ) : null}
 
@@ -200,6 +208,7 @@ export default function Spar() {
           peer={peer}
           responses={responses}
           onDone={finish}
+          onShare={() => savedId.current && router.push(`/share/${savedId.current}`)}
         />
       ) : null}
 
@@ -326,16 +335,25 @@ function Verdict({
   peer,
   responses,
   onDone,
+  onShare,
 }: {
   result: Extract<SparScoreResult, { crisis: false }>;
   scenario: Scenario;
   peer: string | null;
   responses: string[];
   onDone: () => void;
+  onShare: () => void;
 }) {
   const tint = verdictColor[result.verdict];
   return (
-    <Body footer={<Button label="Done" onPress={onDone} testID="verdict-done" />}>
+    <Body
+      footer={
+        <View style={styles.verdictActions}>
+          <Button label="Share" kind="secondary" style={styles.flex1} onPress={onShare} />
+          <Button label="Done" onPress={onDone} style={styles.flex1} testID="verdict-done" />
+        </View>
+      }
+    >
       <View style={styles.verdictHead}>
         <VerdictBadge verdict={result.verdict} />
       </View>
@@ -462,4 +480,6 @@ const styles = StyleSheet.create({
   block: { marginTop: spacing.md },
   rule: { height: 1, backgroundColor: palette.hairline, marginVertical: spacing.base },
   roundRow: { marginTop: spacing.md },
+  verdictActions: { flexDirection: 'row', gap: spacing.md },
+  flex1: { flex: 1 },
 });

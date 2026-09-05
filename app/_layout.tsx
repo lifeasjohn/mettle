@@ -66,6 +66,8 @@ function Gate() {
       <Stack.Screen name="spar" options={{ presentation: 'modal' }} />
       <Stack.Screen name="quench" options={{ presentation: 'modal' }} />
       <Stack.Screen name="paywall" options={{ presentation: 'modal' }} />
+      <Stack.Screen name="settings" options={{ presentation: 'modal' }} />
+      <Stack.Screen name="share/[id]" options={{ presentation: 'modal' }} />
     </Stack>
   );
 }

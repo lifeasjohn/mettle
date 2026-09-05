@@ -47,7 +47,8 @@ interface MettleState {
     entry: Omit<QuenchEntry, 'id' | 'createdAt'>,
     intentionOutcome: Intention['outcome'],
   ) => Promise<void>;
-  saveSpar: (spar: Omit<SparSession, 'id' | 'createdAt'>) => Promise<void>;
+  /** Returns the new session's id, so the share card can address it. */
+  saveSpar: (spar: Omit<SparSession, 'id' | 'createdAt'>) => Promise<string>;
   markConceptDelivered: (conceptId: string) => Promise<void>;
   subscribe: () => Promise<void>;
   reset: () => Promise<void>;
@@ -158,6 +159,7 @@ export const useMettle = create<MettleState>()((set, get) => ({
 
     set((s) => ({ spars: [...s.spars, spar], entitlement }));
     await awardMultiBonus(spar.date);
+    return spar.id;
   },
 
   async markConceptDelivered(conceptId) {

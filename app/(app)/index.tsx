@@ -1,5 +1,5 @@
 import { useRouter } from 'expo-router';
-import { StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
 import { lessonById } from '../../src/content';
 import { canSpar, levelFor, todayISO } from '../../src/domain';
 import { PATH_NOUN } from '../../src/features/onboarding/steps';
@@ -79,7 +79,18 @@ export default function Today() {
             {greeting()}
           </Text>
         </View>
-        <Flame days={streak.current} />
+        <View style={styles.topRight}>
+          <Flame days={streak.current} />
+          <Pressable
+            onPress={() => router.push('/settings')}
+            hitSlop={12}
+            accessibilityLabel="Settings"
+          >
+            <Text variant="caption" tone="faint">
+              Settings
+            </Text>
+          </Pressable>
+        </View>
       </View>
 
       {streak.atRisk ? (
@@ -243,4 +254,5 @@ const styles = StyleSheet.create({
   rowPair: { flexDirection: 'row', gap: spacing.md, marginBottom: spacing.md },
   tile: { flex: 1, borderRadius: radius.lg },
   levelRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
+  topRight: { alignItems: 'flex-end', gap: spacing.sm },
 });

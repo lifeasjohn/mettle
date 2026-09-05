@@ -3,6 +3,7 @@ import { useCallback, useMemo, useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { virtues } from '../src/content/schema';
 import { PATH_NOUN, steps, TOTAL_STEPS, type Answers } from '../src/features/onboarding/steps';
+import { track } from '../src/lib/analytics';
 import { useMettle } from '../src/state/store';
 import { palette, radius, spacing, virtueColor, virtueLabel } from '../src/theme/tokens';
 import { Button, Card, Screen, Stepper, Text } from '../src/ui';
@@ -40,6 +41,11 @@ export default function Onboarding() {
       onboardedAt: new Date().toISOString(),
     };
     await saveProfile(profile);
+    track({
+      name: 'onboarding_complete',
+      path: profile.strugglePath,
+      minutes: profile.minutesCommitment,
+    });
     router.replace('/');
   }, [answers, path, saveProfile, router]);
 

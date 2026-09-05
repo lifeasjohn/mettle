@@ -3,6 +3,8 @@ import { useCallback, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { lessonById } from '../../src/content';
 import type { LessonCard } from '../../src/content/schema';
+import { track } from '../../src/lib/analytics';
+import { requestPermission, scheduleQuenchReminder } from '../../src/lib/notifications';
 import { useMettle } from '../../src/state/store';
 import { palette, radius, spacing } from '../../src/theme/tokens';
 import { Button, Card, Progress, Screen, Text } from '../../src/ui';
@@ -25,6 +27,9 @@ export default function LessonScreen() {
   const completeLesson = useMettle((s) => s.completeLesson);
   const setIntention = useMettle((s) => s.setIntention);
   const profile = useMettle((s) => s.profile);
+  const completedCount = useMettle((s) => s.lessonProgress.length);
+  const firstLesson = completedCount === 0;
+  const notificationTime = profile?.notificationTime ?? null;
 
   const lesson = id ? lessonById.get(id) : undefined;
   const [index, setIndex] = useState(0);
@@ -39,9 +44,19 @@ export default function LessonScreen() {
       setBusy(true);
       await completeLesson(lesson.id, !missed);
       await setIntention(intentionText, lesson.id);
+      track({ name: 'lesson_complete', lessonId: lesson.id, perfect: !missed });
+
+      // Asked here, not at launch: a permission prompt before the app has done
+      // anything for you is how you earn a permanent denial.
+      if (firstLesson) {
+        const granted = await requestPermission();
+        if (granted && notificationTime) {
+          await scheduleQuenchReminder(notificationTime, 1);
+        }
+      }
       router.replace('/');
     },
-    [lesson, missed, completeLesson, setIntention, router],
+    [lesson, missed, completeLesson, setIntention, router, firstLesson, notificationTime],
   );
 
   if (!lesson) {

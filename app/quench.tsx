@@ -12,6 +12,7 @@ import {
   type Setting,
   type TimeOfDay,
 } from '../src/domain';
+import { track } from '../src/lib/analytics';
 import { useStreak } from '../src/state/hooks';
 import { selectTodayIntention, useMettle } from '../src/state/store';
 import { palette, spacing, virtueColor } from '../src/theme/tokens';
@@ -64,6 +65,7 @@ export default function Quench() {
     // Free text in the Quench goes through the same guardrail as the Arena.
     const screened = screenForCrisis(`${heldText}\n${ranText}`);
     if (screened.crisis) {
+      track({ name: 'crisis_guardrail', surface: 'quench', layer: 1 });
       setStep('crisis');
       return;
     }
@@ -83,6 +85,12 @@ export default function Quench() {
       outcome,
     );
     setSaving(false);
+    track({
+      name: 'quench_complete',
+      heldCount: held.length,
+      ranCount: ran.length,
+      hasContext: timeOfDay !== null || setting !== null,
+    });
     setStep('seal');
   }, [heldText, ranText, saveQuench, date, held, ran, timeOfDay, setting, sealLine, outcome]);
 
