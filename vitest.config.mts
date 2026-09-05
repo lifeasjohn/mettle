@@ -8,6 +8,12 @@ import { defineConfig } from 'vitest/config';
 export default defineConfig({
   test: {
     environment: 'node',
-    include: ['src/domain/**/*.test.ts', 'src/content/**/*.test.ts'],
+    // src/data is mostly react-native-dependent and verified visually instead.
+    // guardrail.ts is the exception: it is pure, and it is safety-critical.
+    include: [
+      'src/domain/**/*.test.ts',
+      'src/content/**/*.test.ts',
+      'src/data/guardrail.test.ts',
+    ],
   },
 });

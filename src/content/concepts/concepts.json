@@ -9,7 +9,19 @@
       "text": "Some things are within our power, while others are not.",
       "attribution": "Epictetus"
     },
-    "taughtInLesson": true
+    "taughtInLesson": true,
+    "cues": [
+      "control",
+      "mine",
+      "not mine",
+      "up to me",
+      "column",
+      "outside me",
+      "my part",
+      "in my power",
+      "not my",
+      "i can"
+    ]
   },
   {
     "id": "event-vs-judgment",
@@ -21,7 +33,19 @@
       "text": "Men are disturbed not by things, but by the views they take of them.",
       "attribution": "Epictetus"
     },
-    "taughtInLesson": true
+    "taughtInLesson": true,
+    "cues": [
+      "event",
+      "judgment",
+      "story",
+      "what happened",
+      "made it mean",
+      "interpretation",
+      "added",
+      "assumed",
+      "evidence",
+      "reading"
+    ]
   },
   {
     "id": "the-pause",
@@ -33,7 +57,19 @@
       "text": "The greatest remedy for anger is delay.",
       "attribution": "Seneca"
     },
-    "taughtInLesson": true
+    "taughtInLesson": true,
+    "cues": [
+      "pause",
+      "wait",
+      "before i",
+      "ten seconds",
+      "slow",
+      "not act",
+      "gap",
+      "react",
+      "delay",
+      "stop first"
+    ]
   },
   {
     "id": "the-reframe",
@@ -45,7 +81,17 @@
       "text": "The impediment to action advances action. What stands in the way becomes the way.",
       "attribution": "Marcus Aurelius"
     },
-    "taughtInLesson": true
+    "taughtInLesson": true,
+    "cues": [
+      "next move",
+      "what now",
+      "given that",
+      "makes possible",
+      "useful",
+      "from here",
+      "workable",
+      "best available"
+    ]
   },
   {
     "id": "the-practice-loop",
@@ -57,7 +103,18 @@
       "text": "I will keep constant watch over myself and put each day up for review.",
       "attribution": "Seneca"
     },
-    "taughtInLesson": true
+    "taughtInLesson": true,
+    "cues": [
+      "review",
+      "tonight",
+      "tomorrow",
+      "intention",
+      "tape",
+      "data",
+      "start again",
+      "pattern",
+      "daily"
+    ]
   },
   {
     "id": "not-taking-offense",
@@ -69,7 +126,18 @@
       "text": "If someone succeeds in provoking you, realise that your mind is complicit in the provocation.",
       "attribution": "Epictetus"
     },
-    "taughtInLesson": false
+    "taughtInLesson": false,
+    "cues": [
+      "offense",
+      "insult",
+      "sting",
+      "agree",
+      "counts",
+      "sign",
+      "personally",
+      "lands",
+      "cuts"
+    ]
   },
   {
     "id": "others-opinions",
@@ -81,7 +149,17 @@
       "text": "I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.",
       "attribution": "Marcus Aurelius"
     },
-    "taughtInLesson": false
+    "taughtInLesson": false,
+    "cues": [
+      "opinion",
+      "what they think",
+      "reputation",
+      "impression",
+      "approval",
+      "their heads",
+      "be liked",
+      "seen"
+    ]
   },
   {
     "id": "negative-visualization",
@@ -93,7 +171,16 @@
       "text": "Nothing happens to the wise man against his expectation.",
       "attribution": "Seneca"
     },
-    "taughtInLesson": false
+    "taughtInLesson": false,
+    "cues": [
+      "worst case",
+      "rehearse",
+      "prepare",
+      "imagine losing",
+      "expect",
+      "ambush",
+      "sit with it"
+    ]
   },
   {
     "id": "view-from-above",
@@ -105,7 +192,17 @@
       "text": "You have power over your mind, not outside events. Realise this, and you will find strength.",
       "attribution": "Marcus Aurelius"
     },
-    "taughtInLesson": false
+    "taughtInLesson": false,
+    "cues": [
+      "perspective",
+      "proportion",
+      "zoom",
+      "step back",
+      "scale",
+      "bigger picture",
+      "small",
+      "pull back"
+    ]
   },
   {
     "id": "amor-fati",
@@ -117,7 +214,17 @@
       "text": "Do not seek for things to happen as you wish, but wish things to be as they are.",
       "attribution": "Epictetus"
     },
-    "taughtInLesson": false
+    "taughtInLesson": false,
+    "cues": [
+      "accept",
+      "already happened",
+      "cannot change",
+      "resist",
+      "willingly",
+      "un-happen",
+      "reality",
+      "is what it is"
+    ]
   },
   {
     "id": "role-ethics",
@@ -129,7 +236,18 @@
       "text": "Your duty is to act well the part that is given to you; but to choose it belongs to another.",
       "attribution": "Epictetus"
     },
-    "taughtInLesson": false
+    "taughtInLesson": false,
+    "cues": [
+      "role",
+      "my job",
+      "my part",
+      "as a",
+      "what is asked",
+      "duty",
+      "parent",
+      "colleague",
+      "here is to"
+    ]
   },
   {
     "id": "anger-is-assent",
@@ -141,7 +259,18 @@
       "text": "No man is more foolish than the one who thinks his anger proves his strength.",
       "attribution": "Seneca"
     },
-    "taughtInLesson": false
+    "taughtInLesson": false,
+    "cues": [
+      "anger",
+      "decision",
+      "verdict",
+      "case",
+      "choose",
+      "heat",
+      "assent",
+      "cooperation",
+      "angry"
+    ]
   },
   {
     "id": "desire-and-aversion",
@@ -153,7 +282,17 @@
       "text": "Freedom is secured not by the fulfilling of desires, but by the removal of desire.",
       "attribution": "Epictetus"
     },
-    "taughtInLesson": false
+    "taughtInLesson": false,
+    "cues": [
+      "want",
+      "wanting",
+      "craving",
+      "need",
+      "attached",
+      "dread",
+      "avoid",
+      "hand over"
+    ]
   },
   {
     "id": "memento-mori",
@@ -165,7 +304,17 @@
       "text": "You could leave life right now. Let that determine what you do and say and think.",
       "attribution": "Marcus Aurelius"
     },
-    "taughtInLesson": false
+    "taughtInLesson": false,
+    "cues": [
+      "finite",
+      "time",
+      "life",
+      "clock",
+      "hours",
+      "worth",
+      "spend",
+      "not getting back"
+    ]
   },
   {
     "id": "character-over-outcome",
@@ -177,6 +326,16 @@
       "text": "It is not the man who has too little who is poor, but the one who craves more.",
       "attribution": "Seneca"
     },
-    "taughtInLesson": false
+    "taughtInLesson": false,
+    "cues": [
+      "effort",
+      "attempt",
+      "aim",
+      "outcome",
+      "result",
+      "responsible",
+      "graded",
+      "did my part"
+    ]
   }
 ]

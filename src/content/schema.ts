@@ -49,6 +49,12 @@ export const Concept = z.object({
   quote: z.object({ text: z.string().min(1), attribution: z.string().min(1) }).optional(),
   /** True when a lesson teaches it. False means it only ever appears just-in-time. */
   taughtInLesson: z.boolean(),
+  /**
+   * Phrases that evidence the user has actually applied this concept. Used by
+   * the offline heuristic scorer and injected into the scoring prompt, so
+   * tuning how a concept is recognised is a content edit, not a code change.
+   */
+  cues: z.array(z.string().min(1)).min(3),
 });
 export type Concept = z.infer<typeof Concept>;
 
