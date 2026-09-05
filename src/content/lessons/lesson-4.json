@@ -1,0 +1,98 @@
+{
+  "id": "lesson-4",
+  "order": 4,
+  "title": "The Reframe",
+  "subtitle": "Given that this happened, what now",
+  "virtue": "courage",
+  "teaches": ["the-reframe"],
+  "cards": [
+    {
+      "id": "l4-hook",
+      "type": "hook",
+      "variants": {
+        "anger": "The decision went the other way, and it went that way for reasons you think are bad. You have now explained why they were bad to three separate people.",
+        "anxiety": "The thing you were dreading actually happened. And underneath the fear there is something almost like relief, because now at least it is a real problem and not a possible one.",
+        "distraction": "You lost the whole afternoon. The choice now is whether you also lose the evening to being annoyed about the afternoon.",
+        "discipline": "Four weeks of work, and the plan is dead. Everything you built it on turned out not to be true."
+      }
+    },
+    {
+      "id": "l4-c1",
+      "type": "concept",
+      "heading": "Two separate operations",
+      "body": "There is arguing with what happened, and there is deciding what to do next. Most people run the first one for hours and call it thinking.\n\nThe reframe is just starting the second one earlier."
+    },
+    {
+      "id": "l4-c2",
+      "type": "concept",
+      "heading": "This is not optimism",
+      "body": "Nobody is asking you to call the setback a gift. It might genuinely be bad. The question is narrower and colder than that: given that it has happened and cannot un-happen, what is the best available move?",
+      "quote": {
+        "text": "The impediment to action advances action. What stands in the way becomes the way.",
+        "attribution": "Marcus Aurelius",
+        "translation": "The obstacle is not blocking the path. Today it is the path."
+      }
+    },
+    {
+      "id": "l4-check",
+      "type": "check",
+      "interaction": "single_choice",
+      "prompt": "Your flight is cancelled and you will miss the first day. Which response is the reframe?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Everything happens for a reason.",
+          "correct": false,
+          "feedback": "That is a story about the past. The reframe is a decision about the next hour."
+        },
+        {
+          "id": "o2",
+          "text": "I am missing day one. What is the most useful thing I can do with tonight?",
+          "correct": true,
+          "feedback": "Correct. Accept the fact, then move immediately to the move."
+        },
+        {
+          "id": "o3",
+          "text": "This airline is a disgrace and someone should be held accountable.",
+          "correct": false,
+          "feedback": "Possibly true. Also forty minutes you are not getting back."
+        }
+      ]
+    },
+    {
+      "id": "l4-rep",
+      "type": "rep",
+      "scenario": "You were passed over for something you wanted and had earned. It stings, and the reasoning was genuinely unfair. What is the trained response?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Accept it gracefully and say nothing. It is out of my control.",
+          "correct": false,
+          "feedback": "Half right, half surrender. Whether you speak up is column one, and sometimes speaking up is the move."
+        },
+        {
+          "id": "o2",
+          "text": "Let it be unfair, and separately decide what this makes possible that was not possible last week.",
+          "correct": true,
+          "feedback": "Yes. You do not have to pretend it was fair to start working with it."
+        },
+        {
+          "id": "o3",
+          "text": "Build the case for why the decision was wrong and make sure it is understood.",
+          "correct": false,
+          "feedback": "You can win that argument completely and still be exactly where you are."
+        }
+      ]
+    },
+    {
+      "id": "l4-carry",
+      "type": "carry",
+      "prompt": "Pick one thing to hold to today.",
+      "intentions": [
+        "When something goes wrong, I will get to the next move faster than usual.",
+        "I will stop relitigating one thing that is already decided.",
+        "I will name what this actually makes possible, without pretending it is good."
+      ]
+    }
+  ]
+}

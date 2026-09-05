@@ -1,0 +1,172 @@
+[
+  {
+    "id": "discipline-01",
+    "path": "discipline",
+    "virtue": "courage",
+    "targetConcepts": ["the-practice-loop", "character-over-outcome"],
+    "opening": "Day nine. The alarm goes. There is a half-second where it is genuinely undecided, and then it is not, and you are already back under.",
+    "instinctOptions": ["Get up anyway", "Ten more minutes", "Reset the plan for tomorrow", "Accept it and move on"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou wake properly at 8:20. The window for the thing you were going to do has closed." },
+      { "template": "That evening you notice yourself thinking that you never stick to anything, which is not strictly true and is becoming true. Same answer?" }
+    ],
+    "referenceAnswer": "The streak is broken and cannot be unbroken, and the important thing is that a broken streak is one missed day, not a verdict on my character. The story I am about to build out of it is the dangerous part, because that story does the work of making itself true. Tomorrow is a separate day. I get up, and I stop grading nine days by the tenth.",
+    "exemplars": [
+      "One missed day is one missed day. The story that I never stick to anything is the thing that actually ends this.",
+      "Broken streaks are data, not identity. Start again tomorrow without the ceremony."
+    ]
+  },
+  {
+    "id": "discipline-02",
+    "path": "discipline",
+    "virtue": "temperance",
+    "targetConcepts": ["the-pause", "desire-and-aversion"],
+    "opening": "You said you would not, and you are currently standing in front of it, having walked here on purpose while telling yourself you had not decided anything.",
+    "instinctOptions": ["Walk away now", "Just this once", "Have a smaller amount", "Work out why you are here first"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nA reason arrives, fully formed and quite persuasive, for why today is a legitimate exception." },
+      { "template": "You go through with it. It is fine, it is genuinely fine, and you know exactly how tomorrow will go. Same answer?" }
+    ],
+    "referenceAnswer": "The decision was made further back than this, at the point where I let myself walk here while pretending it was undecided. That is where the pause needed to happen. The reason that just arrived is not a reason, it is the want wearing a suit. I can notice that, name it, and walk, and the wanting will still be there and will not actually harm me.",
+    "exemplars": [
+      "The decision happened when I started walking. Everything since has been me building a case.",
+      "The excuse arrived after the craving, not before it. That order tells me everything about what it is."
+    ]
+  },
+  {
+    "id": "discipline-03",
+    "path": "discipline",
+    "virtue": "wisdom",
+    "targetConcepts": ["event-vs-judgment", "the-reframe"],
+    "opening": "You committed to six weeks. You are at week two and it is not working. Not dramatically. It is just not producing anything yet.",
+    "instinctOptions": ["Change the approach", "Hold the line for six weeks", "Reassess properly", "Quietly stop"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nSomeone mentions a different method that sounds faster and is, apparently, what everyone is doing now." },
+      { "template": "Week three. Still nothing visible. The new method is starting to look very reasonable. Same answer?" }
+    ],
+    "referenceAnswer": "Two weeks of no visible result is the event. That it is not working is a judgment, and at two weeks I do not have the evidence to make it. There is a real question about whether the method is wrong, and it is answerable, but not by feel and not while I am uncomfortable. I set the review point in advance, at six weeks, and switching now would mostly be me buying relief from the discomfort of not-yet.",
+    "exemplars": [
+      "Two weeks is not enough evidence to conclude anything. I am reading impatience as data.",
+      "The new method is attractive because it is new, not because it is better. I set the review point for a reason."
+    ]
+  },
+  {
+    "id": "discipline-04",
+    "path": "discipline",
+    "virtue": "courage",
+    "targetConcepts": ["the-reframe", "character-over-outcome"],
+    "opening": "You have to do the thing you have been putting off for three weeks. It will take about forty minutes. You know it will take forty minutes.",
+    "instinctOptions": ["Do it now, badly", "Schedule it properly", "Do the easy part first", "Work out why you keep avoiding it"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou open it and immediately find it is worse than you thought, because three weeks have made it worse." },
+      { "template": "Halfway through, you realise you will need something from someone else, which means it cannot finish today. Same answer?" }
+    ],
+    "referenceAnswer": "Three weeks of avoiding it has cost me more than the forty minutes several times over, in low-level dread rather than in time, which is why I never counted it. It being worse now is a consequence of the avoiding, not a reason for more of it. I start it badly, today, and accept that finishing it may take two sessions. Starting is the only part that has ever been the problem.",
+    "exemplars": [
+      "The dread has already cost more than the task. Forty minutes was always the cheap option.",
+      "Start badly. The thing that has been stopping me is not the difficulty, it is the starting."
+    ]
+  },
+  {
+    "id": "discipline-05",
+    "path": "discipline",
+    "virtue": "temperance",
+    "targetConcepts": ["the-practice-loop", "dichotomy-of-control"],
+    "opening": "You did four days out of seven. Your plan said seven. You are looking at the four and feeling like you failed.",
+    "instinctOptions": ["Set an easier target", "Hold the seven and try harder", "Count the four as a win", "Work out what happened on the three"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou look properly, and all three missed days were the same day of the week, which you had not noticed." },
+      { "template": "Next week you do five. Better, but still not seven, and the same feeling arrives. Same answer?" }
+    ],
+    "referenceAnswer": "Four is not a failure of seven, it is four more than zero, and the framing is doing real damage here. What is actually useful is the review: three misses all on the same weekday is a finding, and it points at something structural rather than at my character. I adjust the system around that day rather than resolving to want it more, because wanting it more has never once worked.",
+    "exemplars": [
+      "Three misses on the same weekday is a structural problem, not a willpower problem. Fix the structure.",
+      "Four out of seven is four. Grading it against seven and calling it zero is a choice I keep making."
+    ]
+  },
+  {
+    "id": "discipline-06",
+    "path": "discipline",
+    "virtue": "justice",
+    "targetConcepts": ["role-ethics", "others-opinions"],
+    "opening": "You told someone you would have it to them by Friday. It is Thursday night and it is not close.",
+    "instinctOptions": ["Work through the night", "Tell them now", "Send something partial Friday", "Tell them Friday morning"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThey message at 9pm: no rush, whenever. Which makes it worse, not better." },
+      { "template": "You deliver Monday. They are perfectly fine about it and you cannot stop thinking about it. Same answer?" }
+    ],
+    "referenceAnswer": "The obligation here is to them and it is about information, not about heroics. Telling them tonight lets them plan. Working through the night is partly about the deadline and mostly about not having to say I was wrong about the estimate. Their being relaxed about it does not undo that I gave them bad information late, and the lesson is in the estimating, not in the guilt.",
+    "exemplars": [
+      "Tell them tonight so they can plan. The all-nighter protects my image, not their timeline.",
+      "The failure was the estimate, not the delay. Feeling bad about it is not the same as fixing it."
+    ]
+  },
+  {
+    "id": "discipline-07",
+    "path": "discipline",
+    "virtue": "wisdom",
+    "targetConcepts": ["desire-and-aversion", "memento-mori"],
+    "opening": "You have started this same thing four times in two years. You are about to start it a fifth time, and you can feel how good the starting feels.",
+    "instinctOptions": ["Start again properly", "Work out why the last four stopped", "Start smaller", "Do not start, commit instead"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou catch yourself planning the setup: the app, the notebook, the schedule. Three hours could go here easily." },
+      { "template": "Week two arrives, which is where the last four all died. Same answer?" }
+    ],
+    "referenceAnswer": "I am addicted to the starting, which is the part that feels like progress and costs nothing. Four attempts is not bad luck, it is a pattern with a shape, and the shape is week two. The useful work is not a better plan, it is knowing in advance what week two feels like and deciding now what I do when it arrives. Two years of restarts is a real amount of a finite life.",
+    "exemplars": [
+      "The setup is the fun part and it is where I keep spending the effort. Skip it and start ugly.",
+      "All four died at week two. That is the only piece of information I actually have, so plan for week two."
+    ]
+  },
+  {
+    "id": "discipline-08",
+    "path": "discipline",
+    "virtue": "courage",
+    "targetConcepts": ["negative-visualization", "the-practice-loop"],
+    "opening": "It is going well. Eleven days. You notice yourself thinking that you have got this now, that it has become automatic.",
+    "instinctOptions": ["Enjoy it, keep going", "Plan for the day it breaks", "Increase the difficulty", "Do not think about it, you will jinx it"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nDay thirteen, something genuinely unavoidable comes up. Not an excuse. A real thing." },
+      { "template": "You miss two in a row. The eleven days feel like they belonged to someone else. Same answer?" }
+    ],
+    "referenceAnswer": "Eleven days is eleven days, not a permanent change of character, and the belief that it is automatic now is exactly what makes the first miss feel catastrophic. The useful move while it is going well is to decide, in advance and unemotionally, what I do on the day it breaks. A plan made now costs nothing. A plan made on day thirteen will be made by someone with a bruise.",
+    "exemplars": [
+      "Decide now what a missed day looks like, while I am calm. Day thirteen me will not be calm.",
+      "Eleven days is a streak, not a personality. Believing otherwise is what makes the break feel fatal."
+    ]
+  },
+  {
+    "id": "discipline-09",
+    "path": "discipline",
+    "virtue": "temperance",
+    "targetConcepts": ["dichotomy-of-control", "amor-fati"],
+    "opening": "You did everything right for three months and the result did not come. Someone who did noticeably less got it.",
+    "instinctOptions": ["Keep going regardless", "Work out what they did differently", "Accept it is not fair", "Stop, it clearly does not work"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou find out they got it partly through a connection, which confirms everything you suspected and helps not at all." },
+      { "template": "Month four. Same effort, still nothing. Same answer?" }
+    ],
+    "referenceAnswer": "The effort was mine and I did it well. The result was never mine, and three months of good work does not create an entitlement to an outcome, however much it feels like it should. It is genuinely unfair, and that can be true at the same time as the work being the right work. Stopping because the result did not arrive means I was never doing it for the reason I said I was.",
+    "exemplars": [
+      "It is unfair and the work was still correct. Both of those are true and neither cancels the other.",
+      "If I stop the moment the outcome does not arrive, then I was training for the outcome, not the character."
+    ]
+  },
+  {
+    "id": "discipline-10",
+    "path": "discipline",
+    "virtue": "justice",
+    "targetConcepts": ["character-over-outcome", "role-ethics"],
+    "opening": "Nobody would know. There is a version of this where you cut the corner and it is genuinely undetectable, and it would save you most of a day.",
+    "instinctOptions": ["Cut it, nobody is harmed", "Do it properly", "Cut it and tell someone", "Cut a smaller corner"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou realise you have cut this same corner before, twice, and nothing happened either time." },
+      { "template": "It ships. It is fine. Nobody notices, exactly as predicted. Same answer?" }
+    ],
+    "referenceAnswer": "The question is not whether I would be caught, it is who I am when nobody is checking, because that is the only place character actually exists. Doing it properly costs a day. The other thing costs a small permanent adjustment to what I am willing to do, and those adjustments compound quietly. Twice before is not evidence it is safe, it is evidence the adjustment is already happening.",
+    "exemplars": [
+      "Nobody knowing is precisely what makes it the real test. That is the whole point of the test.",
+      "Twice before and nothing happened is not reassurance, it is the drift I should be worried about."
+    ]
+  }
+]

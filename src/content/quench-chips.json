@@ -1,0 +1,19 @@
+[
+  { "id": "held-calm", "label": "Stayed calm under pressure", "kind": "held", "virtue": "temperance", "trigger": "pressure" },
+  { "id": "held-let-go", "label": "Let something go", "kind": "held", "virtue": "temperance", "trigger": "letting-go" },
+  { "id": "held-paused", "label": "Paused before reacting", "kind": "held", "virtue": "temperance", "trigger": "reaction" },
+  { "id": "held-commitment", "label": "Kept a commitment", "kind": "held", "virtue": "courage", "trigger": "commitment" },
+  { "id": "held-started", "label": "Started something I was avoiding", "kind": "held", "virtue": "courage", "trigger": "avoidance" },
+  { "id": "held-hard-thing", "label": "Said the hard thing kindly", "kind": "held", "virtue": "justice", "trigger": "honesty" },
+  { "id": "held-listened", "label": "Actually listened", "kind": "held", "virtue": "justice", "trigger": "presence" },
+  { "id": "held-saw-clearly", "label": "Saw it for what it was", "kind": "held", "virtue": "wisdom", "trigger": "clarity" },
+
+  { "id": "ran-personally", "label": "Took something personally", "kind": "ran", "virtue": "temperance", "trigger": "took-personally" },
+  { "id": "ran-story", "label": "Spun a story", "kind": "ran", "virtue": "wisdom", "trigger": "spun-story" },
+  { "id": "ran-reacted", "label": "Reacted before thinking", "kind": "ran", "virtue": "temperance", "trigger": "reaction" },
+  { "id": "ran-avoided", "label": "Avoided something", "kind": "ran", "virtue": "courage", "trigger": "avoidance" },
+  { "id": "ran-compared", "label": "Compared myself to someone", "kind": "ran", "virtue": "wisdom", "trigger": "comparison" },
+  { "id": "ran-approval", "label": "Needed someone to agree with me", "kind": "ran", "virtue": "wisdom", "trigger": "approval" },
+  { "id": "ran-lost-time", "label": "Lost time I meant to use", "kind": "ran", "virtue": "temperance", "trigger": "lost-time" },
+  { "id": "ran-snapped", "label": "Snapped at someone", "kind": "ran", "virtue": "temperance", "trigger": "reaction" }
+]

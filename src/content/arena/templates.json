@@ -1,0 +1,153 @@
+[
+  {
+    "id": "tpl-slight",
+    "path": "anger",
+    "virtue": "temperance",
+    "targetConcepts": ["not-taking-offense", "anger-is-assent"],
+    "openingTemplate": "{{who}} makes a remark about {{subject}} in front of {{audience}}. It is delivered lightly, and it is not the first time.",
+    "slots": {
+      "who": ["A colleague", "Your brother-in-law", "An old friend", "Someone on your team", "A neighbour"],
+      "subject": ["your work", "how you spend your money", "your parenting", "the way you eat", "your relationship"],
+      "audience": ["four other people", "your partner", "the whole team", "your parents", "people you barely know"]
+    },
+    "instinctOptions": ["Return it with interest", "Laugh and carry it home", "Name it right there", "Go quiet"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThey double down, and this time someone else laughs along." },
+      { "template": "Afterwards they ask, apparently sincerely, whether you are alright. Same answer?" }
+    ],
+    "referenceAnswer": "The remark only cuts if I agree that it counts, and the agreement is mine to withhold. If the pattern is worth raising it is worth raising privately and without heat, not as a counterpunch in front of an audience.",
+    "exemplars": ["It lands because part of me agrees with it. That is mine to look at, not theirs to fix."]
+  },
+  {
+    "id": "tpl-waiting",
+    "path": "anxiety",
+    "virtue": "wisdom",
+    "targetConcepts": ["dichotomy-of-control", "desire-and-aversion"],
+    "openingTemplate": "You are waiting to hear about {{thing}}. It has been {{duration}}. You have checked {{channel}} more times today than you would admit to.",
+    "slots": {
+      "thing": ["the job", "the results", "the offer", "whether they want a second conversation", "the decision"],
+      "duration": ["four days", "a week", "eleven days", "since Tuesday", "most of a fortnight"],
+      "channel": ["your email", "your phone", "the portal", "your messages"]
+    },
+    "instinctOptions": ["Follow up now", "Keep checking", "Assume it is a no", "Put it down and work"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nSomeone mentions, casually, that they think a decision was made last week." },
+      { "template": "Still nothing by Friday evening. The weekend is now in front of you. Same answer?" }
+    ],
+    "referenceAnswer": "My part is finished, and the outcome sits with people on a timeline I cannot see. One follow-up is reasonable. After that the checking is not diligence, it is paying the anxiety in instalments.",
+    "exemplars": ["The part that was mine is done. Continuing to work on it is just wanting, louder."]
+  },
+  {
+    "id": "tpl-misread",
+    "path": "anxiety",
+    "virtue": "wisdom",
+    "targetConcepts": ["event-vs-judgment"],
+    "openingTemplate": "{{who}} sends you {{message}}. Nothing else. You have now read it {{count}} times.",
+    "slots": {
+      "who": ["Your manager", "Your partner", "A close friend", "Someone you report to", "Your sister"],
+      "message": ["a single word", "a full stop and nothing else", "\"we should talk\"", "a thumbs up", "\"ok\""],
+      "count": ["four", "six", "more than you want to say"]
+    },
+    "instinctOptions": ["Ask directly what is wrong", "Reread everything recent", "Match their tone back", "Let it be"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThey come online, stay online for a while, and do not message." },
+      { "template": "The next morning they are completely normal, as if nothing happened. Same answer?" }
+    ],
+    "referenceAnswer": "A short message arrived. Everything I have felt since is a reading I authored in about two seconds. I can ask plainly, once, or I can let it be unresolved, but I do not have to defend myself against something nobody has said.",
+    "exemplars": ["I wrote the subtext myself and then got upset at my own draft."]
+  },
+  {
+    "id": "tpl-reach",
+    "path": "distraction",
+    "virtue": "temperance",
+    "targetConcepts": ["the-pause", "desire-and-aversion"],
+    "openingTemplate": "You sit down to {{task}}. Within {{window}}, without deciding to, you are {{escape}}.",
+    "slots": {
+      "task": ["write the thing", "start the report", "do the accounts", "make the call", "study"],
+      "window": ["two minutes", "ninety seconds", "the time it takes to open the file"],
+      "escape": ["holding your phone", "reading something unrelated", "tidying your desk", "making a second coffee"]
+    },
+    "instinctOptions": ["Put it out of reach", "Five minutes then start", "Start with it face down", "Work out why first"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou come back, start properly, and the work gets hard in a small specific way. The reach happens again." },
+      { "template": "An hour gone. You have produced one paragraph you do not like. Same answer?" }
+    ],
+    "referenceAnswer": "The reach is timed to the difficulty, not to the clock, which makes it an escape rather than a habit. The gap I am training is the ninety seconds after it gets hard.",
+    "exemplars": ["It happens exactly when the work gets uncomfortable. That timing is the whole tell."]
+  },
+  {
+    "id": "tpl-writeoff",
+    "path": "distraction",
+    "virtue": "wisdom",
+    "targetConcepts": ["event-vs-judgment", "the-reframe"],
+    "openingTemplate": "You have lost {{amount}}. It is {{time}} and there is a strong pull to write off {{scope}}.",
+    "slots": {
+      "amount": ["the whole morning", "three hours", "most of the day", "the afternoon"],
+      "time": ["1pm", "half past two", "gone four", "nearly five"],
+      "scope": ["the rest of the day", "the whole week", "today entirely"]
+    },
+    "instinctOptions": ["Write it off, restart tomorrow", "Salvage what is left", "Work late to make it up", "Diagnose it first"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou start, and the thought arrives that there is not enough time left to do it properly anyway." },
+      { "template": "You get about an hour of real work done. Half the day used, half not. Same answer?" }
+    ],
+    "referenceAnswer": "Losing the morning is the event. That the day is ruined is a judgment I added, and it is the one that turns four lost hours into nine. What is left does not have to redeem what is gone.",
+    "exemplars": ["The judgment costs more than the event did. That is almost always where it goes wrong."]
+  },
+  {
+    "id": "tpl-breach",
+    "path": "discipline",
+    "virtue": "courage",
+    "targetConcepts": ["the-practice-loop", "character-over-outcome"],
+    "openingTemplate": "Day {{day}}. You said you would {{commitment}} and today you did not. {{context}}",
+    "slots": {
+      "day": ["six", "nine", "twelve", "four", "seventeen"],
+      "commitment": ["train every morning", "be off screens by ten", "write for an hour", "not drink this month", "call them every Sunday"],
+      "context": ["Nothing dramatic happened. You just did not.", "There was a reason, and it was not a good one.", "You noticed yourself deciding, and did it anyway."]
+    },
+    "instinctOptions": ["Start again tomorrow", "Make the target easier", "Double it tomorrow", "Look at what happened"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThe next day you miss it again, and this time the missing was easier." },
+      { "template": "You catch yourself thinking that you never stick to anything. Same answer?" }
+    ],
+    "referenceAnswer": "A missed day is a missed day, not a verdict on my character. The story I am about to build out of it is the part that does real damage, because that story does the work of making itself true.",
+    "exemplars": ["Broken streaks are data, not identity. The story afterwards is what actually ends things."]
+  },
+  {
+    "id": "tpl-cornercut",
+    "path": "discipline",
+    "virtue": "justice",
+    "targetConcepts": ["character-over-outcome", "role-ethics"],
+    "openingTemplate": "You could {{shortcut}} and {{consequence}}. It would save you {{saving}}.",
+    "slots": {
+      "shortcut": ["skip the check", "reuse the old numbers", "say it is done when it is nearly done", "leave out the part that complicates it"],
+      "consequence": ["nobody would know", "it would almost certainly never surface", "it would be fine, realistically"],
+      "saving": ["most of a day", "a difficult conversation", "two hours and an argument", "an entire evening"]
+    },
+    "instinctOptions": ["Take it, no harm done", "Do it properly", "Take it and flag it", "Take a smaller version"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou remember you have done this before, more than once, and nothing came of it then either." },
+      { "template": "It goes through. Nobody notices, exactly as predicted. Same answer?" }
+    ],
+    "referenceAnswer": "Nobody knowing is what makes this the actual test rather than a hypothetical one. The corner costs a day. The other thing costs a small permanent adjustment to what I am willing to do, and those compound quietly.",
+    "exemplars": ["Having got away with it before is not reassurance. It is the drift I should be watching."]
+  },
+  {
+    "id": "tpl-unfair",
+    "path": "anger",
+    "virtue": "justice",
+    "targetConcepts": ["dichotomy-of-control", "others-opinions"],
+    "openingTemplate": "A decision goes against you and the reasoning is {{quality}}. {{who}} got the thing instead.",
+    "slots": {
+      "quality": ["visibly thin", "not the real reason", "based on something that is not true", "never actually explained"],
+      "who": ["Someone who did less", "Someone who asked louder", "Someone who has been there longer", "Someone better connected"]
+    },
+    "instinctOptions": ["Make the case it was wrong", "Accept it and move", "Ask for the real reasoning", "Let it change how you work"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou learn the decision was largely made before the process started." },
+      { "template": "Someone asks how you are taking it. You hear yourself being generous, and you are not sure you mean it. Same answer?" }
+    ],
+    "referenceAnswer": "It can be genuinely unfair and still not be mine. Asking for the reasoning is column one and worth doing once. Relitigating it afterwards means I can win the argument completely and remain exactly where I am.",
+    "exemplars": ["Ask once, plainly, then stop. Being right about it does not move me an inch."]
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "id": "lesson-3",
+  "order": 3,
+  "title": "The Pause",
+  "subtitle": "The gap you are training to widen",
+  "virtue": "temperance",
+  "teaches": ["the-pause"],
+  "cards": [
+    {
+      "id": "l3-hook",
+      "type": "hook",
+      "variants": {
+        "anger": "The message arrives. You read it twice. You are typing before you have finished deciding whether to.",
+        "anxiety": "The thought arrives and you are already three steps into the worst version, arranging furniture in a house that has not been built.",
+        "distraction": "Your hand reaches for the phone. You did not decide to. You notice the decision only after the screen is already lit.",
+        "discipline": "The alarm goes. There is a half-second where it is genuinely undecided. Then you are already back under, and it was never close."
+      }
+    },
+    {
+      "id": "l3-c1",
+      "type": "concept",
+      "heading": "It is not instant",
+      "body": "The reaction feels like one motion. It is not. There is a moment where the impression has arrived and you have not yet agreed with it.\n\nThat moment is the entire practice. Everything Mettle trains happens in there."
+    },
+    {
+      "id": "l3-c2",
+      "type": "concept",
+      "heading": "What the pause is not",
+      "body": "It is not suppression. You are not trying to feel nothing, and a man white-knuckling his way through a meeting is not tempered, he is loaded. The pause is just arriving before you have already spoken.",
+      "quote": {
+        "text": "The greatest remedy for anger is delay.",
+        "attribution": "Seneca",
+        "translation": "You do not have to win the argument with yourself. You just have to be slower than it."
+      }
+    },
+    {
+      "id": "l3-check",
+      "type": "check",
+      "interaction": "single_choice",
+      "prompt": "Which of these is actually the pause?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Feeling nothing when provoked.",
+          "correct": false,
+          "feedback": "That is not available, and chasing it will make you dishonest about what you feel."
+        },
+        {
+          "id": "o2",
+          "text": "Noticing the impression arrive, before you have agreed with it.",
+          "correct": true,
+          "feedback": "Yes. The gap is between arrival and assent, not between arrival and feeling."
+        },
+        {
+          "id": "o3",
+          "text": "Holding it in until you are alone.",
+          "correct": false,
+          "feedback": "That is storage, not training. It comes out later with interest."
+        }
+      ]
+    },
+    {
+      "id": "l3-rep",
+      "type": "rep",
+      "scenario": "Someone talks over you for the third time in one meeting. The heat arrives immediately. What is the trained move?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Talk over them back, harder. Establish the boundary.",
+          "correct": false,
+          "feedback": "You skipped the gap entirely. The room now decides who was worse."
+        },
+        {
+          "id": "o2",
+          "text": "Let the heat arrive, do not act on it yet, then say the thing you would still say in an hour.",
+          "correct": true,
+          "feedback": "That is it. You are not swallowing it. You are only refusing to be fast."
+        },
+        {
+          "id": "o3",
+          "text": "Say nothing, and raise it in a message tonight.",
+          "correct": false,
+          "feedback": "Sometimes right. But if you chose it to avoid the moment rather than to handle it better, that is avoidance wearing a good coat."
+        }
+      ]
+    },
+    {
+      "id": "l3-carry",
+      "type": "carry",
+      "prompt": "Pick one thing to hold to today.",
+      "intentions": [
+        "Once today, I will feel it coming and not act for ten seconds.",
+        "Before I reply to anything that stings, I will put the phone down first.",
+        "I will notice one reach I did not decide to make."
+      ]
+    }
+  ]
+}

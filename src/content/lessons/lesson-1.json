@@ -1,0 +1,86 @@
+{
+  "id": "lesson-1",
+  "order": 1,
+  "title": "The One Distinction",
+  "subtitle": "Where your leverage actually is",
+  "virtue": "wisdom",
+  "teaches": ["dichotomy-of-control"],
+  "cards": [
+    {
+      "id": "l1-hook",
+      "type": "hook",
+      "variants": {
+        "anger": "Someone cuts in front of you in traffic. Before you have decided anything, your hands are tight on the wheel and you are already composing what you would say to them.",
+        "anxiety": "It is 2am. The message you sent at four in the afternoon has not been answered. You have now read it back four times looking for the mistake.",
+        "distraction": "You sat down ninety minutes ago to do one thing. You have not done it. You could not honestly say what you did instead.",
+        "discipline": "You said Monday. It is Wednesday. The plan was good, you still believe in the plan, and you have not started."
+      }
+    },
+    {
+      "id": "l1-c1",
+      "type": "concept",
+      "heading": "Two columns",
+      "body": "Sort everything that happens into two columns. Column one: your judgments, your choices, your effort, what you do next. Column two: everything else. Other people, outcomes, the past, traffic, your reputation.\n\nColumn one is small. Column two is enormous."
+    },
+    {
+      "id": "l1-c2",
+      "type": "concept",
+      "heading": "Why this is the first thing",
+      "body": "Epictetus was born a slave and lame in one leg. He is not offering you comfort here. He is telling you where the leverage is.",
+      "quote": {
+        "text": "Some things are within our power, while others are not.",
+        "attribution": "Epictetus",
+        "translation": "Two columns. Always know which one you are standing in."
+      }
+    },
+    {
+      "id": "l1-check",
+      "type": "check",
+      "interaction": "sort",
+      "prompt": "Sort these. Take the ones that feel obvious first.",
+      "items": [
+        { "id": "i1", "text": "Whether you reply", "bucket": "control" },
+        { "id": "i2", "text": "Whether they apologise", "bucket": "not_control" },
+        { "id": "i3", "text": "How much effort you put in", "bucket": "control" },
+        { "id": "i4", "text": "Whether it works", "bucket": "not_control" },
+        { "id": "i5", "text": "What you say next", "bucket": "control" },
+        { "id": "i6", "text": "What they think of you", "bucket": "not_control" }
+      ]
+    },
+    {
+      "id": "l1-rep",
+      "type": "rep",
+      "scenario": "Your manager gives you feedback in front of the team. Some of it is fair. Some of it is not. Which part is yours to work on?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "The unfair part. Correct the record now, in front of everyone.",
+          "correct": false,
+          "feedback": "Their assessment is column two. You cannot edit it live, and trying makes the room the judge."
+        },
+        {
+          "id": "o2",
+          "text": "How you respond, and what you do with the part that was fair.",
+          "correct": true,
+          "feedback": "That is it. The feedback is theirs. The response is yours."
+        },
+        {
+          "id": "o3",
+          "text": "Neither. None of this is in your control.",
+          "correct": false,
+          "feedback": "Too far. The distinction is not a licence to sit down. Your response is always column one."
+        }
+      ]
+    },
+    {
+      "id": "l1-carry",
+      "type": "carry",
+      "prompt": "Pick one thing to hold to today.",
+      "intentions": [
+        "When something lands, I will name the column before I react.",
+        "I will stop arguing with one thing I cannot change.",
+        "I will put my effort where it actually reaches."
+      ]
+    }
+  ]
+}

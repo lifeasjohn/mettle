@@ -1,0 +1,182 @@
+[
+  {
+    "id": "dichotomy-of-control",
+    "name": "The One Distinction",
+    "virtue": "wisdom",
+    "summary": "Some things are up to you and some are not, and almost all suffering comes from confusing the two.",
+    "body": "Your judgments, your choices, your effort: yours. Other people, outcomes, the past, your reputation, the weather: not yours. Every time you strain against something in the second column, you lose. Not because it is noble to give up, but because you were never holding the handle.",
+    "quote": {
+      "text": "Some things are within our power, while others are not.",
+      "attribution": "Epictetus"
+    },
+    "taughtInLesson": true
+  },
+  {
+    "id": "event-vs-judgment",
+    "name": "Event and Judgment",
+    "virtue": "wisdom",
+    "summary": "The event is neutral. The judgment you attach to it is what actually lands.",
+    "body": "Someone did not reply. That is the event. Everything else, that they are annoyed, that you said something wrong, that this always happens, is a story you added in the last two seconds. You cannot delete the event. You can audit the story.",
+    "quote": {
+      "text": "Men are disturbed not by things, but by the views they take of them.",
+      "attribution": "Epictetus"
+    },
+    "taughtInLesson": true
+  },
+  {
+    "id": "the-pause",
+    "name": "The Pause",
+    "virtue": "temperance",
+    "summary": "There is a gap between what happens and what you do. Training widens it.",
+    "body": "The reaction feels instant, but it is not. There is a moment where the impression arrives and you have not yet agreed with it. That moment is the whole practice. You are not trying to feel nothing. You are trying to get there before you have already spoken.",
+    "quote": {
+      "text": "The greatest remedy for anger is delay.",
+      "attribution": "Seneca"
+    },
+    "taughtInLesson": true
+  },
+  {
+    "id": "the-reframe",
+    "name": "The Reframe",
+    "virtue": "courage",
+    "summary": "An obstacle is material. The question is what it makes possible, not why it happened.",
+    "body": "This is not positive thinking, and it is not pretending the setback is a gift. It is narrower than that: given that this has happened and cannot un-happen, what is the best available move? Ask that early and you skip the part where you argue with reality first.",
+    "quote": {
+      "text": "The impediment to action advances action. What stands in the way becomes the way.",
+      "attribution": "Marcus Aurelius"
+    },
+    "taughtInLesson": true
+  },
+  {
+    "id": "the-practice-loop",
+    "name": "The Loop",
+    "virtue": "temperance",
+    "summary": "Set one intention in the morning. Review it honestly at night. That is the whole system.",
+    "body": "Stoics were not contemplatives. They ran a loop: decide what you will hold to today, go out and fail at it in various ways, then look at the tape without flinching. The reviewing is not optional. Reps you never look at are just movement.",
+    "quote": {
+      "text": "I will keep constant watch over myself and put each day up for review.",
+      "attribution": "Seneca"
+    },
+    "taughtInLesson": true
+  },
+  {
+    "id": "not-taking-offense",
+    "name": "Offense Requires Your Signature",
+    "virtue": "temperance",
+    "summary": "An insult only lands if you agree that it counts.",
+    "body": "Someone says the thing. It sits there, inert, until you sign for it. The sting you feel is not the words, it is your own verdict that the words were true, or that this person's opinion decides something about you. Withdraw the signature and there is nothing to carry home.",
+    "quote": {
+      "text": "If someone succeeds in provoking you, realise that your mind is complicit in the provocation.",
+      "attribution": "Epictetus"
+    },
+    "taughtInLesson": false
+  },
+  {
+    "id": "others-opinions",
+    "name": "Their Verdict Is Not Yours",
+    "virtue": "wisdom",
+    "summary": "What other people think of you happens inside their heads, where you do not work.",
+    "body": "Reputation sits squarely in the not-yours column. You can act well, and you should. You cannot make anyone notice. Training yourself to need the noticing is training yourself to be operated by strangers.",
+    "quote": {
+      "text": "I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.",
+      "attribution": "Marcus Aurelius"
+    },
+    "taughtInLesson": false
+  },
+  {
+    "id": "negative-visualization",
+    "name": "Rehearse the Loss",
+    "virtue": "courage",
+    "summary": "Picture losing it while you still have it, and the fear of losing it loses its grip.",
+    "body": "Not to be morbid, and not to spoil the thing. To take the ambush out of it. What arrives unrehearsed hits at full force. What you have already sat with arrives as something you recognise. Do it briefly, then go back to enjoying what you have.",
+    "quote": {
+      "text": "Nothing happens to the wise man against his expectation.",
+      "attribution": "Seneca"
+    },
+    "taughtInLesson": false
+  },
+  {
+    "id": "view-from-above",
+    "name": "The View From Above",
+    "virtue": "wisdom",
+    "summary": "Pull the camera back far enough and the emergency resizes itself.",
+    "body": "The thing consuming you is happening in one room, on one day, to one of several billion people. That does not make it fake or unimportant. It makes it proportionate. Most panic is a zoom problem.",
+    "quote": {
+      "text": "You have power over your mind, not outside events. Realise this, and you will find strength.",
+      "attribution": "Marcus Aurelius"
+    },
+    "taughtInLesson": false
+  },
+  {
+    "id": "amor-fati",
+    "name": "Meet It Willingly",
+    "virtue": "courage",
+    "summary": "You are going to live through this either way. Dragging your heels is the only optional part.",
+    "body": "This is the hardest one and the most misread. It does not mean you wanted this or that it is secretly good. It means the resisting is a second injury you are administering to yourself, on top of the first one, which already happened and is not negotiable.",
+    "quote": {
+      "text": "Do not seek for things to happen as you wish, but wish things to be as they are.",
+      "attribution": "Epictetus"
+    },
+    "taughtInLesson": false
+  },
+  {
+    "id": "role-ethics",
+    "name": "Play Your Part Well",
+    "virtue": "justice",
+    "summary": "You do not choose the role. You choose how well it is played.",
+    "body": "Ask what is actually being asked of you here, as this person's colleague, friend, parent, stranger in a queue. The answer is usually smaller and clearer than the drama suggests. Most of what you were about to do was performance for an audience that is not watching.",
+    "quote": {
+      "text": "Your duty is to act well the part that is given to you; but to choose it belongs to another.",
+      "attribution": "Epictetus"
+    },
+    "taughtInLesson": false
+  },
+  {
+    "id": "anger-is-assent",
+    "name": "Anger Is a Decision",
+    "virtue": "temperance",
+    "summary": "Anger is not a reflex that happens to you. It is a verdict you reach, fast.",
+    "body": "The first jolt is involuntary and you are not responsible for it. What follows is: the case you build, the evidence you gather, the sentence you pass. Anger needs your cooperation to become anything. It feels like weather. It is closer to a court.",
+    "quote": {
+      "text": "No man is more foolish than the one who thinks his anger proves his strength.",
+      "attribution": "Seneca"
+    },
+    "taughtInLesson": false
+  },
+  {
+    "id": "desire-and-aversion",
+    "name": "What You Want Owns You",
+    "virtue": "temperance",
+    "summary": "Attach wanting to things outside your control and you have handed over the controls.",
+    "body": "Every craving for an outcome, and every dread of one, is a lever you have installed on your own back and left where anyone can reach it. The Stoic move is not to want nothing. It is to move the wanting onto things that are actually yours to do.",
+    "quote": {
+      "text": "Freedom is secured not by the fulfilling of desires, but by the removal of desire.",
+      "attribution": "Epictetus"
+    },
+    "taughtInLesson": false
+  },
+  {
+    "id": "memento-mori",
+    "name": "The Clock Is Running",
+    "virtue": "wisdom",
+    "summary": "You will not get this afternoon back. Spend it like that is true.",
+    "body": "Not a threat, a filter. Held properly, mortality does not produce panic, it produces triage. Almost everything you are currently upset about does not survive contact with the question of whether it deserves a share of a finite life.",
+    "quote": {
+      "text": "You could leave life right now. Let that determine what you do and say and think.",
+      "attribution": "Marcus Aurelius"
+    },
+    "taughtInLesson": false
+  },
+  {
+    "id": "character-over-outcome",
+    "name": "Graded on the Attempt",
+    "virtue": "justice",
+    "summary": "You are responsible for the quality of the effort, never for the result.",
+    "body": "The archer aims well, releases well, and then the wind does what it does. Judge yourself on the aim and the release. Judging yourself on where the arrow landed means outsourcing your self-assessment to physics.",
+    "quote": {
+      "text": "It is not the man who has too little who is poor, but the one who craves more.",
+      "attribution": "Seneca"
+    },
+    "taughtInLesson": false
+  }
+]

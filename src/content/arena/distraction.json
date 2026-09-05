@@ -1,0 +1,172 @@
+[
+  {
+    "id": "distraction-01",
+    "path": "distraction",
+    "virtue": "temperance",
+    "targetConcepts": ["the-pause", "desire-and-aversion"],
+    "opening": "You sit down to start. Before you have opened the file, your hand has already picked up the phone. You did not decide to.",
+    "instinctOptions": ["Put it in another room", "Just five minutes", "Start the work with it face down", "Check it properly, then start"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nTwelve minutes later you surface. You cannot account for the twelve minutes and you have not opened the file." },
+      { "template": "You start. Ninety seconds in, the work gets hard in a small specific way, and the reach happens again. Same answer?" }
+    ],
+    "referenceAnswer": "The reach is not random. It happens exactly when the work gets uncomfortable, which means it is an escape, not a habit. The gap I am training is between the discomfort arriving and my hand moving. I do not need to want to work. I need to stay in the chair for the ninety seconds after it gets hard, which is where the whole thing is actually decided.",
+    "exemplars": [
+      "The reach is timed to the difficulty, not to the clock. That is the tell.",
+      "I put the phone elsewhere not because I lack willpower but because I would rather not spend it on this."
+    ]
+  },
+  {
+    "id": "distraction-02",
+    "path": "distraction",
+    "virtue": "wisdom",
+    "targetConcepts": ["memento-mori", "dichotomy-of-control"],
+    "opening": "It is 9:40pm. You have been scrolling since about seven. You are not enjoying it and have not been for at least an hour.",
+    "instinctOptions": ["Stop now and go to bed", "Finish this one thing", "Move to something better", "Keep going, the evening is gone anyway"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou catch yourself having already reopened the same app you just closed. You have no memory of doing it." },
+      { "template": "It is 10:25. You had wanted to read something tonight. That was the plan at six. Same answer?" }
+    ],
+    "referenceAnswer": "The evening is not gone, there is an hour left, and writing off the rest because the first part went badly is how one bad hour becomes four. The scroll stopped being pleasant a while ago, which means I am not choosing it anymore. This is a finite evening in a finite life and I would rather have twenty deliberate minutes than another hour I will not remember.",
+    "exemplars": [
+      "The hour is spent. The next one is not, and treating the night as already lost is the actual mistake.",
+      "I stopped enjoying this at eight. Everything since has been momentum, not choice."
+    ]
+  },
+  {
+    "id": "distraction-03",
+    "path": "distraction",
+    "virtue": "courage",
+    "targetConcepts": ["the-reframe", "character-over-outcome"],
+    "opening": "You have three things to do and you have done none of them because you cannot decide which one to start. You have been deciding for forty minutes.",
+    "instinctOptions": ["Make a proper plan first", "Start the smallest one", "Start the hardest one", "Take a break and come back to it"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nTen minutes in, you become convinced you picked the wrong one and the other one was more urgent." },
+      { "template": "You switch. Now you are twelve minutes into the second one and thinking about the first. Same answer?" }
+    ],
+    "referenceAnswer": "The deciding is the avoidance. Any of the three is better than a fourth hour of ranking them, and the cost of picking the second best is trivial compared to what I have already spent choosing. I will pick one, badly if necessary, and hold it for a set stretch without renegotiating. I am graded on doing the work, not on having optimised the order.",
+    "exemplars": [
+      "Choosing has become the thing I am doing instead of working. Any pick beats another hour of this.",
+      "Pick one and refuse to renegotiate for thirty minutes. The switching is the leak."
+    ]
+  },
+  {
+    "id": "distraction-04",
+    "path": "distraction",
+    "virtue": "temperance",
+    "targetConcepts": ["desire-and-aversion", "event-vs-judgment"],
+    "opening": "A notification arrives while you are mid-sentence. It is nothing. You know it is nothing. You are already reading it.",
+    "instinctOptions": ["Turn notifications off entirely", "Deal with it now so it is gone", "Ignore it and continue", "Note it for later"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nGetting back into the sentence takes longer than expected. You reread the paragraph twice." },
+      { "template": "Three more arrive in the next ten minutes. None of them matter either. Same answer?" }
+    ],
+    "referenceAnswer": "The notification cost me a second. Rebuilding what I was holding in my head costs several minutes, and that is the real price, which I keep not counting. The pull is a small want that I have trained into myself, and it is stronger than my interest in this paragraph purely because it is easier. Turning them off is not weakness, it is refusing to fight the same tiny battle forty times a day.",
+    "exemplars": [
+      "The interruption is cheap. Reloading the context is what actually costs me, and I never count it.",
+      "I do not need to win this against my own attention. I can just remove the thing."
+    ]
+  },
+  {
+    "id": "distraction-05",
+    "path": "distraction",
+    "virtue": "justice",
+    "targetConcepts": ["role-ethics", "the-pause"],
+    "opening": "Someone is telling you something that matters to them. You realise you have not heard the last thirty seconds and you are about to have to respond.",
+    "instinctOptions": ["Nod and hope", "Admit you drifted", "Ask a general question to cover", "Change the subject slightly"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThey pause and wait. It is clearly your turn and it is clearly a specific question." },
+      { "template": "They say: sorry, this is probably boring. It is not boring. You were just not there. Same answer?" }
+    ],
+    "referenceAnswer": "My role in this conversation is to be present, and I have not been, and the covering manoeuvre would be a small lie that protects me at their expense. The honest move costs me a moment of embarrassment and gives them the thing they actually came for. I say I drifted, ask them to go back, and then actually stay.",
+    "exemplars": [
+      "Faking it protects my image and costs them the conversation. That trade is not one I want to make.",
+      "Say I lost the thread, ask them to repeat it, and then be there for the second attempt."
+    ]
+  },
+  {
+    "id": "distraction-06",
+    "path": "distraction",
+    "virtue": "wisdom",
+    "targetConcepts": ["event-vs-judgment", "the-reframe"],
+    "opening": "You lost the entire morning. It is 1pm and the day feels contaminated. There is a strong pull to write the whole thing off.",
+    "instinctOptions": ["Write off today, restart tomorrow", "Salvage the afternoon", "Work late to make it up", "Work out what went wrong first"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou start, and immediately the thought arrives that there is not enough time left to do it properly anyway." },
+      { "template": "It is 3pm. You have done about an hour of real work. Half a day is gone and half is not. Same answer?" }
+    ],
+    "referenceAnswer": "The morning went badly. That is the event. That the day is ruined is a judgment I added, and it is the expensive one, because it is what turns four lost hours into nine. There is an afternoon here. It does not need to redeem the morning, it just needs to be used. Doing it imperfectly now beats doing it properly in an imaginary tomorrow.",
+    "exemplars": [
+      "A bad morning is four hours. Writing off the day is nine. The judgment costs more than the event.",
+      "The afternoon does not have to make up for anything. It just has to be an afternoon."
+    ]
+  },
+  {
+    "id": "distraction-07",
+    "path": "distraction",
+    "virtue": "courage",
+    "targetConcepts": ["dichotomy-of-control", "character-over-outcome"],
+    "opening": "You keep opening the thing that shows you how other people are doing. You are not enjoying that either, and you have opened it again since starting this sentence.",
+    "instinctOptions": ["Delete the app", "Unfollow the worst of it", "Keep looking, it is motivating", "Notice why you are looking"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nSomeone you know posts something genuinely impressive. You feel it in your stomach before you have finished reading it." },
+      { "template": "You catch yourself drafting a post about your own week, and realise you are casting rather than living. Same answer?" }
+    ],
+    "referenceAnswer": "I am measuring myself against a highlight reel using a scoreboard I did not choose, and both the reel and the scoring are entirely outside me. Their week is not mine and comparing them tells me nothing actionable. What is mine is the quality of what I did today, and that is judged against what I intended, not against whatever someone else chose to publish.",
+    "exemplars": [
+      "I am comparing my whole week to their best forty seconds. That is not a fair instrument.",
+      "Noticing that I am drafting my life rather than living it is the useful part here."
+    ]
+  },
+  {
+    "id": "distraction-08",
+    "path": "distraction",
+    "virtue": "temperance",
+    "targetConcepts": ["the-practice-loop", "the-pause"],
+    "opening": "You promised yourself you would stop at ten. It is ten. The episode has already autoplayed and you are ninety seconds in.",
+    "instinctOptions": ["Stop now, mid-episode", "Finish this one, then stop", "Turn off autoplay first", "It is fine, it is one episode"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nIt ends on something. The next one is already counting down from eight." },
+      { "template": "It is 11:40. This is the third night this week. Same answer?" }
+    ],
+    "referenceAnswer": "The decision was made at a time when I was thinking clearly, and the version of me at 11:40 is not better informed, just more tired and more agreeable. Honouring the earlier decision is the whole discipline. Stopping mid-episode is trivially easy in the sense that nothing physical prevents it. The only thing making it hard is that I would rather not, and that has never been a good enough reason.",
+    "exemplars": [
+      "Ten-o'clock me made the call with a clear head. Midnight me is not qualified to overturn it.",
+      "Third night this week is the actual finding. One night is a night, three is a pattern I am choosing."
+    ]
+  },
+  {
+    "id": "distraction-09",
+    "path": "distraction",
+    "virtue": "justice",
+    "targetConcepts": ["role-ethics", "memento-mori"],
+    "opening": "Your kid asks you to watch them do something. You say yes. You are watching through a phone that you are also using.",
+    "instinctOptions": ["Put it down entirely", "Film it, that counts", "Finish the message first", "Half watch, they will not notice"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThey do it, and then look straight at you to check you saw. You are not certain you did." },
+      { "template": "They ask if you want to see it again. There is something in how they ask. Same answer?" }
+    ],
+    "referenceAnswer": "They are not asking me to observe, they are asking me to be there, and those are different things that look identical from the outside and not at all from theirs. This is a finite number of afternoons. My role here takes about four minutes and requires only that I put the thing down. Filming it is a way of being absent while producing evidence that I was present.",
+    "exemplars": [
+      "Filming it is a way of not being there while collecting proof that I was.",
+      "Four minutes. There is no version of my inbox that is worth more than the look they give me when they check I saw."
+    ]
+  },
+  {
+    "id": "distraction-10",
+    "path": "distraction",
+    "virtue": "wisdom",
+    "targetConcepts": ["desire-and-aversion", "the-practice-loop"],
+    "opening": "You are researching. You have twenty-one tabs open. You have been researching for two hours and have produced nothing.",
+    "instinctOptions": ["Read three more, then decide", "Close everything and start", "Save them all for later", "Admit this is avoidance"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nOne of the tabs suggests an approach you had not considered, which opens four more tabs." },
+      { "template": "It is now three hours. You know more than you did and you have still not started. Same answer?" }
+    ],
+    "referenceAnswer": "Research feels like work and costs nothing emotionally, which is exactly why I have chosen it over the thing that would cost something. Three hours in, I am not gathering information, I am deferring a start. The move is to close everything, accept that I will do the first version badly with what I already know, and let the actual work tell me what I still need.",
+    "exemplars": [
+      "This stopped being research an hour ago. It is a way of feeling productive while avoiding the hard part.",
+      "Close the tabs, do a bad first version, and let the work reveal what I actually need to look up."
+    ]
+  }
+]

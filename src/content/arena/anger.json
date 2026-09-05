@@ -1,0 +1,172 @@
+[
+  {
+    "id": "anger-01",
+    "path": "anger",
+    "virtue": "temperance",
+    "targetConcepts": ["anger-is-assent", "the-pause"],
+    "opening": "A colleague takes credit for your work in a meeting. Not vaguely. He uses your phrasing, the one you wrote at 11pm on Sunday, and the room nods at him.",
+    "instinctOptions": ["Correct him now, in front of everyone", "Say nothing and seethe", "Message him after", "Make a joke with an edge on it"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nGood. He does it again twenty minutes later, and this time your director says: great thinking, Marcus. He does not correct her." },
+      { "template": "Held so far. Now you find out he did the same thing to someone else last quarter, and nothing happened then either. Same answer?" }
+    ],
+    "referenceAnswer": "He said the words. That is the event. That he stole something from me is a verdict I reached in under a second, and it might be right, but I do not have to pass it in this room. What is mine here is whether the work gets attributed accurately, so I will handle that afterwards, in writing, without heat. The anger is not information about him. It is information about how much I wanted the credit.",
+    "exemplars": [
+      "The credit is not mine to control, the record is. I will follow up with my director after, calmly, with the timestamps. Doing that angry gets me nothing except a reputation for being difficult.",
+      "First thing I notice is that I want to be seen more than I want the work to be right. Sitting with that for a second takes most of the heat out."
+    ]
+  },
+  {
+    "id": "anger-02",
+    "path": "anger",
+    "virtue": "temperance",
+    "targetConcepts": ["not-taking-offense"],
+    "opening": "Your brother makes the same joke about your job that he has made at every family gathering for six years. Everyone laughs. He looks at you to see if it landed.",
+    "instinctOptions": ["Hit back harder", "Laugh it off, resent it later", "Tell him to stop, in front of everyone", "Go quiet for the rest of the night"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nHe leans in. \"See, this is what I mean. You cannot take anything.\" Your mother laughs at that one too." },
+      { "template": "Later, in the kitchen, he says he was only messing about and asks why you are being weird. He is genuinely puzzled. Now what?" }
+    ],
+    "referenceAnswer": "The joke only cuts because part of me agrees with it. That is the actual injury, and he did not put it there. He made a noise in a room. Whether it counts is my signature, and I am not signing tonight. If the pattern is worth raising, it is worth raising alone and sober, not as a counterpunch in front of my mother.",
+    "exemplars": [
+      "It stings because I half believe it. He is not the problem, that belief is, and he cannot fix it for me.",
+      "Six years of the same joke means it is his bit, not a verdict on me. I can let him have his bit."
+    ]
+  },
+  {
+    "id": "anger-03",
+    "path": "anger",
+    "virtue": "justice",
+    "targetConcepts": ["role-ethics", "the-pause"],
+    "opening": "You are on hold for fifty minutes. The line drops. When you get back through, a different agent asks you to explain the whole thing again from the start.",
+    "instinctOptions": ["Let them have it", "Demand a manager immediately", "Explain it flatly, again", "Hang up and give up"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nHalfway through the explanation, she interrupts to tell you that this is not her department and she will need to transfer you." },
+      { "template": "The transfer fails. You are back in the queue, at position eleven, listening to the same four bars of music. Still the same answer?" }
+    ],
+    "referenceAnswer": "The person on the phone did not design this system and is paid very little to absorb what it produces. My role here is customer, not judge. Being unpleasant to her will not shorten the queue, it will just make one stranger's shift worse and leave me carrying it into my evening. I will state the problem clearly, ask for a reference number, and let the frustration be about the system rather than aimed at whoever answers.",
+    "exemplars": [
+      "She did not build this. Taking it out on her is just moving my bad hour onto someone with less power than me.",
+      "The wait is column two. My tone is column one. That is the only decision available here."
+    ]
+  },
+  {
+    "id": "anger-04",
+    "path": "anger",
+    "virtue": "wisdom",
+    "targetConcepts": ["event-vs-judgment"],
+    "opening": "Your partner says: is that what you are wearing? Nothing else. They keep looking at their phone.",
+    "instinctOptions": ["Ask what that is supposed to mean", "Change, resentfully", "Say nothing, remember it", "Fire something back about their outfit"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThey look up, mildly confused, and say: I just asked a question. Which lands, somehow, worse." },
+      { "template": "In the car, neither of you speaks for ten minutes. You are aware that you are the one making it a silence. Same answer?" }
+    ],
+    "referenceAnswer": "Six words arrived. That they were a criticism, that they meant I look bad, that this is part of a pattern, all of that is mine, added instantly and without evidence. I can just ask. Not pointedly, actually ask. Most of what I am about to defend myself against has not been said by anyone.",
+    "exemplars": [
+      "I have written the whole subtext myself and I am about to get angry at my own draft. Asking a plain question costs nothing.",
+      "Event: a question. Judgment: an attack. Only one of those is definitely in the room."
+    ]
+  },
+  {
+    "id": "anger-05",
+    "path": "anger",
+    "virtue": "temperance",
+    "targetConcepts": ["anger-is-assent", "others-opinions"],
+    "opening": "Someone quotes you out of context in a group chat. Two people react with the laughing emoji before you have even seen it.",
+    "instinctOptions": ["Post the full context immediately", "Leave the chat", "Reply with something sharper", "Screenshot it and send to a friend"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nA third person adds: honestly this is so him. Four more laughing reactions." },
+      { "template": "Nobody has said anything for an hour. The thread has moved on entirely. You have checked it nine times. Same answer?" }
+    ],
+    "referenceAnswer": "What a group chat thinks of me is not mine and never was. The urge here is to repair an impression, and impressions live in other people's heads where I do not work. If there is a factual correction worth making I can make it once, plainly, and then stop refreshing. Checking nine times is the actual problem, and it is not caused by them.",
+    "exemplars": [
+      "Correcting the record once is fine. Needing them to agree is where I lose.",
+      "I notice I want to win a room that is not thinking about me anymore. That is a want I installed, and I can uninstall it."
+    ]
+  },
+  {
+    "id": "anger-06",
+    "path": "anger",
+    "virtue": "courage",
+    "targetConcepts": ["dichotomy-of-control", "the-reframe"],
+    "opening": "A driver undertakes you, cuts across two lanes, and then brakes hard. Everyone is fine. Your hands have not come off the wheel properly since.",
+    "instinctOptions": ["Catch up and make the point", "Flash the lights", "Let it go, still shaking", "Sit on the horn"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nAt the next lights you are side by side. He is looking straight ahead, entirely relaxed, eating something." },
+      { "template": "He pulls away, indicates properly, and drives off perfectly normally. You are still holding the whole thing. Same answer?" }
+    ],
+    "referenceAnswer": "The adrenaline is real and it is not a decision. What I do in the next ten seconds is. He is gone, he is not thinking about me, and pursuing this converts a near miss into a real one. The only thing still in this car that can hurt me is the thing I am about to do with my own hands.",
+    "exemplars": [
+      "The danger passed. Everything from here is me manufacturing more of it.",
+      "I want him to know he was wrong. He will not know, ever, and holding on is a cost I pay alone."
+    ]
+  },
+  {
+    "id": "anger-07",
+    "path": "anger",
+    "virtue": "justice",
+    "targetConcepts": ["role-ethics", "anger-is-assent"],
+    "opening": "Your teenager says: you do not actually listen to me, you just wait until it is your turn to talk. Then they go upstairs and close the door, not loudly.",
+    "instinctOptions": ["Follow them up and finish it", "Point out everything you do for them", "Sit with it", "Go cold for a day"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThrough the door: \"See, this is exactly what I mean.\" You realise there is a version where they are right." },
+      { "template": "An hour later they come down for food and act completely normal, as if none of it happened. Same answer?" }
+    ],
+    "referenceAnswer": "The sentence hurt because there is something in it. My role here is parent, and a parent's job is not to win the exchange. It is to be the one who can absorb it. I can be wrong about this and still be in charge. I will go up later, not now, and ask them what listening would look like, and then actually be quiet.",
+    "exemplars": [
+      "If they are even partly right, defending myself costs me the only thing I actually want here, which is that they keep telling me things.",
+      "I am the adult. Being the adult means the flinch is mine to hold, not theirs to manage."
+    ]
+  },
+  {
+    "id": "anger-08",
+    "path": "anger",
+    "virtue": "temperance",
+    "targetConcepts": ["the-pause", "not-taking-offense"],
+    "opening": "You get a code review that is technically correct and unmistakably contemptuous. Eleven comments. One of them is just: no.",
+    "instinctOptions": ["Reply to all eleven, thoroughly", "Escalate to the lead", "Fix them silently, remember it", "Reply with matching tone"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nHe replies to your first comment within a minute: \"this is what I said.\" Nothing else." },
+      { "template": "You mention it to a teammate, who says: oh, he is like that with everyone, do not take it personally. Which somehow does not help. Same answer?" }
+    ],
+    "referenceAnswer": "Eleven of the comments are about code and one is about tone, and I am about to spend all my energy on the one. The code notes are either right or they are not, and that is checkable without reference to how he feels about me. I will address them flatly, take the ones that are correct, push back on the ones that are not with reasons, and leave the tone alone unless it becomes a pattern worth raising with him directly.",
+    "exemplars": [
+      "Separate the content from the delivery. The content I can use. The delivery is his to carry.",
+      "Answering contempt with contempt makes the review about us instead of about the code, which is exactly the outcome I do not want."
+    ]
+  },
+  {
+    "id": "anger-09",
+    "path": "anger",
+    "virtue": "wisdom",
+    "targetConcepts": ["view-from-above", "anger-is-assent"],
+    "opening": "You have told them three times about the dishwasher. You are standing in front of it now, open, looking at exactly the same thing.",
+    "instinctOptions": ["Call them in and show them", "Do it yourself, loudly", "Bring it up tonight properly", "Add it to the list"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThey walk past, see you standing there, and say: what? Genuinely, not defensively." },
+      { "template": "You realise you have been angry about a dishwasher for eleven minutes of a finite life. And yet. Same answer?" }
+    ],
+    "referenceAnswer": "The intensity is not proportionate to the dishwasher, which means the dishwasher is not really what this is about. It is about feeling like the only one who notices. That is worth saying out loud, once, calmly, as a real thing rather than as a demonstration with cutlery. Standing here building a case is not communication, it is rehearsal.",
+    "exemplars": [
+      "Eleven minutes on a dishwasher. Pulled back far enough, that is the actual scandal here.",
+      "If the real complaint is that I feel unseen, then winning the dishwasher argument fixes nothing."
+    ]
+  },
+  {
+    "id": "anger-10",
+    "path": "anger",
+    "virtue": "courage",
+    "targetConcepts": ["character-over-outcome", "dichotomy-of-control"],
+    "opening": "You find out you were talked about. Not maliciously, exactly, but you were discussed, by people you trusted, in a way you would not have chosen.",
+    "instinctOptions": ["Confront the person who told you", "Confront the group", "Say nothing, trust less", "Ask what exactly was said"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThe person who told you now looks anxious and asks you not to say anything, because they should not have mentioned it." },
+      { "template": "You see the group two days later. Everyone is perfectly warm. Nobody knows you know. Same answer?" }
+    ],
+    "referenceAnswer": "What was said is done and is not editable, and what they think of me lives in their heads. What is mine is whether I keep being the person I would want them to describe accurately. If I want to raise it, I can raise it with one person, directly, asking rather than accusing. Withdrawing from everyone as punishment is a move that costs me the friendships and costs them almost nothing.",
+    "exemplars": [
+      "I can only control whether the description would be fair. I cannot control whether it is made.",
+      "Ask one person directly. Anything else is me running a trial where nobody knows they are on it."
+    ]
+  }
+]

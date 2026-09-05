@@ -1,0 +1,98 @@
+{
+  "id": "lesson-5",
+  "order": 5,
+  "title": "The Loop",
+  "subtitle": "Set it, live it, look at the tape",
+  "virtue": "temperance",
+  "teaches": ["the-practice-loop"],
+  "cards": [
+    {
+      "id": "l5-hook",
+      "type": "hook",
+      "variants": {
+        "anger": "You have read about all of this before. You could explain the dichotomy of control to someone else, competently, and you still went off at your brother on Sunday.",
+        "anxiety": "You know, intellectually, that most of what you fear does not happen. Knowing it has never once helped at 3am.",
+        "distraction": "You have downloaded four apps to fix this. You used each one for about nine days.",
+        "discipline": "The problem was never that you did not know what to do. You have always known what to do."
+      }
+    },
+    {
+      "id": "l5-c1",
+      "type": "concept",
+      "heading": "Knowing is not the bottleneck",
+      "body": "You do not have a knowledge problem. Everyone who reads Stoicism can recite it, and most of them still lose their temper in traffic.\n\nThe Stoics were not readers. They ran a loop, daily, for years."
+    },
+    {
+      "id": "l5-c2",
+      "type": "concept",
+      "heading": "The loop, in full",
+      "body": "Morning: decide one thing you will hold to. Day: go out and fail at it in various interesting ways. Night: look at the tape without flinching.\n\nThe looking is not optional. Reps you never review are just movement.",
+      "quote": {
+        "text": "I will keep constant watch over myself and, most usefully, will put each day up for review.",
+        "attribution": "Seneca",
+        "translation": "Train, then check the tape. Every day, not when you feel like it."
+      }
+    },
+    {
+      "id": "l5-check",
+      "type": "check",
+      "interaction": "single_choice",
+      "prompt": "You set an intention this morning and broke it by 10am. What does the evening review do with that?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Records it plainly, and notes what was happening right before.",
+          "correct": true,
+          "feedback": "Correct. The breach is the data. What preceded it is the actual finding."
+        },
+        {
+          "id": "o2",
+          "text": "Skips it. Reviewing a bad day just makes you feel worse.",
+          "correct": false,
+          "feedback": "The days you want to skip are the only ones with anything in them."
+        },
+        {
+          "id": "o3",
+          "text": "Uses it to establish that you are not disciplined.",
+          "correct": false,
+          "feedback": "That is not review, that is a verdict on your character from a sample size of one."
+        }
+      ]
+    },
+    {
+      "id": "l5-rep",
+      "type": "rep",
+      "scenario": "It is 11pm. You are tired, the day was mediocre, and you did not hold your intention. What does a trained person do?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Skip tonight and start properly tomorrow.",
+          "correct": false,
+          "feedback": "Tomorrow will also be tired. This is the exact move that ends every streak you have had."
+        },
+        {
+          "id": "o2",
+          "text": "Sixty seconds. What held, what ran me, done.",
+          "correct": true,
+          "feedback": "Yes. The review is meant to survive a bad day. That is the whole reason it is short."
+        },
+        {
+          "id": "o3",
+          "text": "Sit with it properly and write at length about what went wrong.",
+          "correct": false,
+          "feedback": "Admirable once. Unsustainable nightly, and a system you will not run is worth nothing."
+        }
+      ]
+    },
+    {
+      "id": "l5-carry",
+      "type": "carry",
+      "prompt": "Pick one thing to hold to today. Then come back tonight for the Quench.",
+      "intentions": [
+        "I will run the Quench tonight, even if the day was bad.",
+        "I will hold today's intention badly rather than not at all.",
+        "I will look at one thing honestly tonight that I would rather skip."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "lesson-2",
+  "order": 2,
+  "title": "Events and Judgments",
+  "subtitle": "The story you added in two seconds",
+  "virtue": "wisdom",
+  "teaches": ["event-vs-judgment"],
+  "cards": [
+    {
+      "id": "l2-hook",
+      "type": "hook",
+      "variants": {
+        "anger": "Your name comes up in a meeting you were not in. By the time you hear about it, you already know exactly what they meant by it.",
+        "anxiety": "Your manager sends four words: can we talk later. You have spent the next hour building the conversation in advance, and it goes badly every time.",
+        "distraction": "You open your phone to check one thing. Forty minutes later you surface, and the feeling is not rest. It is a low static you cannot name.",
+        "discipline": "You miss one day. Then you notice yourself thinking that you have never been able to stick to anything, which is not strictly true, and you carry on believing it anyway."
+      }
+    },
+    {
+      "id": "l2-c1",
+      "type": "concept",
+      "heading": "Two things happened",
+      "body": "Someone did not reply. That is the event.\n\nThat they are annoyed. That you said something wrong. That this always happens to you. That is the judgment, and you added it in the last two seconds without noticing you were the author."
+    },
+    {
+      "id": "l2-c2",
+      "type": "concept",
+      "heading": "Only one of them is editable",
+      "body": "You cannot delete the event. It already happened and it is not taking notes on your opinion. The judgment is a different matter entirely. It is yours, it is recent, and it can be examined.",
+      "quote": {
+        "text": "Men are disturbed not by things, but by the views they take of them.",
+        "attribution": "Epictetus",
+        "translation": "The thing did not hurt you. Your reading of it did."
+      }
+    },
+    {
+      "id": "l2-check",
+      "type": "check",
+      "interaction": "single_choice",
+      "prompt": "A friend walks past you in the street without saying anything. Which of these is the event?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "They ignored you.",
+          "correct": false,
+          "feedback": "Ignoring is intent, and intent is a judgment. You inferred it."
+        },
+        {
+          "id": "o2",
+          "text": "They walked past without speaking.",
+          "correct": true,
+          "feedback": "Correct. That is all the camera saw. Everything else is commentary."
+        },
+        {
+          "id": "o3",
+          "text": "Something is wrong between you.",
+          "correct": false,
+          "feedback": "That is a whole theory built on one piece of evidence."
+        }
+      ]
+    },
+    {
+      "id": "l2-rep",
+      "type": "rep",
+      "scenario": "You get a one-word reply to a long message you spent real effort on. You feel it land. What is the most useful next move?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Reply short back, so they know how it felt.",
+          "correct": false,
+          "feedback": "You have accepted the judgment and are now enforcing it. Fast, and expensive."
+        },
+        {
+          "id": "o2",
+          "text": "Separate them. One word arrived. What I made it mean is the part I can look at.",
+          "correct": true,
+          "feedback": "That is the whole drill. You are not required to believe your first reading."
+        },
+        {
+          "id": "o3",
+          "text": "Decide it does not bother you and move on.",
+          "correct": false,
+          "feedback": "It did bother you. Pretending otherwise is not training, it is holding your breath."
+        }
+      ]
+    },
+    {
+      "id": "l2-carry",
+      "type": "carry",
+      "prompt": "Pick one thing to hold to today.",
+      "intentions": [
+        "Once today, I will say what actually happened before I say what it meant.",
+        "I will catch one story I added and let it go unfinished.",
+        "When it stings, I will ask which part of this is the event."
+      ]
+    }
+  ]
+}

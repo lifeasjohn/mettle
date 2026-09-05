@@ -1,0 +1,172 @@
+[
+  {
+    "id": "anxiety-01",
+    "path": "anxiety",
+    "virtue": "wisdom",
+    "targetConcepts": ["event-vs-judgment"],
+    "opening": "Your manager sends four words at 4:50pm: can we talk tomorrow. Nothing else. She is usually chatty.",
+    "instinctOptions": ["Ask what it is about", "Reread every recent message for clues", "Assume the worst and prepare", "Say sure and try not to think about it"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nShe reads the message. No reply. Her status goes offline at 5:02." },
+      { "template": "It is 1am. You have constructed the meeting eleven times and it has gone badly in nine of them. Same answer?" }
+    ],
+    "referenceAnswer": "Four words arrived. Everything else in my head tonight is a script I wrote and then got frightened by. I do not have the information to prepare, so preparing is just rehearsing dread. The honest move is to notice I am uncomfortable not knowing, which is different from being in trouble, and to let tomorrow be the thing that tells me.",
+    "exemplars": [
+      "I have written nine versions of a conversation that has not happened. None of them are evidence.",
+      "The discomfort is not knowing. I can be uncomfortable without also being doomed."
+    ]
+  },
+  {
+    "id": "anxiety-02",
+    "path": "anxiety",
+    "virtue": "courage",
+    "targetConcepts": ["negative-visualization", "dichotomy-of-control"],
+    "opening": "The results come in three days. You have done everything you can do. There is nothing left to do, which is the worst part.",
+    "instinctOptions": ["Keep checking for early news", "Distract yourself completely", "Sit with the worst case properly", "Ask someone to reassure you"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nSomeone tells you they heard results might come early. No source. You now check every twenty minutes." },
+      { "template": "Day three. Still nothing. You have not been fully present with anyone since Monday. Same answer?" }
+    ],
+    "referenceAnswer": "The work is done and the outcome was never mine. What I can do is take the ambush out of the bad version by sitting with it once, properly: if it goes wrong, here is what Thursday actually looks like, and it is survivable and specific rather than a vague dread. Then I go back to my week. Refreshing is not preparation, it is just paying the anxiety in instalments.",
+    "exemplars": [
+      "Rehearse the bad outcome once, concretely, then stop. Unrehearsed things hit hardest.",
+      "There is no action left, so everything I am doing now is just consuming the fear early."
+    ]
+  },
+  {
+    "id": "anxiety-03",
+    "path": "anxiety",
+    "virtue": "temperance",
+    "targetConcepts": ["desire-and-aversion", "the-pause"],
+    "opening": "You said something slightly wrong in a conversation four hours ago. You have replayed it enough times now that you cannot remember what you actually said.",
+    "instinctOptions": ["Text them to clarify", "Replay it until it resolves", "Let it be wrong", "Ask a friend if it was bad"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou remember a second thing you said, worse, that you had forgotten about entirely." },
+      { "template": "They message you about something completely unrelated, perfectly friendly. You read it three times for tone. Same answer?" }
+    ],
+    "referenceAnswer": "The replaying is not analysis, it is a search for a verdict of not guilty from a judge who is not thinking about this. What I want is for them to have not noticed, and that is entirely outside me. I can decide the thing was minor, let it be unresolved, and accept that living with an open loop is the actual skill here.",
+    "exemplars": [
+      "Reviewing it a tenth time produces no new information. I am just refreshing the discomfort.",
+      "I want certainty that I am fine with them. That certainty is not available, and needing it is the trap."
+    ]
+  },
+  {
+    "id": "anxiety-04",
+    "path": "anxiety",
+    "virtue": "wisdom",
+    "targetConcepts": ["view-from-above", "event-vs-judgment"],
+    "opening": "There is a noise in your chest that you have noticed four times today. You have looked it up. Looking it up did not go well.",
+    "instinctOptions": ["Look it up again, better", "Book an appointment", "Try to ignore it", "Tell someone"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou notice it again while trying not to notice it, which you read somewhere is a sign of something." },
+      { "template": "The appointment is in nine days. You have to live in the meantime. Same answer?" }
+    ],
+    "referenceAnswer": "The sensible action is one action: get it looked at by someone qualified, which I have now done or scheduled. Everything past that is searching, and searching is not care, it is the anxiety feeding itself with worse and worse sources. Nine days of vigilance will not change what is true. I will notice it when I notice it and stop treating each notice as new evidence.",
+    "exemplars": [
+      "There is exactly one useful action and I have taken it. The rest is not diligence, it is a habit.",
+      "Every search result is a story about someone else. My body is not their story."
+    ]
+  },
+  {
+    "id": "anxiety-05",
+    "path": "anxiety",
+    "virtue": "courage",
+    "targetConcepts": ["character-over-outcome"],
+    "opening": "You have to speak for ten minutes tomorrow in front of about forty people. You have done the work. You still feel like you are walking toward something.",
+    "instinctOptions": ["Rehearse until it is perfect", "Find a way out of it", "Accept the nerves and go", "Keep rewriting the opening"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nYou find out two people you actually respect will be in the room." },
+      { "template": "Ten minutes before. Your hands are not steady and someone says: you look nervous. Same answer?" }
+    ],
+    "referenceAnswer": "I am graded on the preparation and the delivery, not on whether forty people are impressed, which is not mine and never was. The nerves are not a malfunction, they are what caring feels like in a body. I will aim well and release, and if it lands badly I will have still done the part that was actually mine.",
+    "exemplars": [
+      "Judge the aim and the release. Where the arrow lands is weather.",
+      "Nerves are not a sign I am unprepared. They are a sign it matters, which I already knew."
+    ]
+  },
+  {
+    "id": "anxiety-06",
+    "path": "anxiety",
+    "virtue": "temperance",
+    "targetConcepts": ["desire-and-aversion", "dichotomy-of-control"],
+    "opening": "You sent the application eleven days ago. The listing is still up. You have decided this means something, and you have decided it twice today.",
+    "instinctOptions": ["Follow up now", "Check the listing again", "Assume it is a no", "Apply somewhere else and forget it"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nSomeone in your network mentions the role casually, as if it is still very much open." },
+      { "template": "A polite automated rejection arrives at 6pm on a Friday. Same answer?" }
+    ],
+    "referenceAnswer": "I have attached my week to a decision made by strangers on a timeline I do not see. The application is submitted, which was the whole of my part. One follow-up is reasonable and professional. After that, the useful move is to put the wanting back onto things I can do, which means applying elsewhere, not because I have given up but because that is where my effort actually reaches.",
+    "exemplars": [
+      "A live listing is not a message to me. I have been reading tea leaves.",
+      "The part that was mine is finished. Continuing to work on it is just wanting louder."
+    ]
+  },
+  {
+    "id": "anxiety-07",
+    "path": "anxiety",
+    "virtue": "wisdom",
+    "targetConcepts": ["view-from-above", "memento-mori"],
+    "opening": "It is 3am. You are awake, and the thing keeping you awake is not the thing you were worried about at midnight. It has moved on to something else entirely.",
+    "instinctOptions": ["Get up and do something", "Try harder to sleep", "Let the thoughts run", "Write it all down"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nIt is now 4:10. You have started worrying about how tired you will be tomorrow, which is a new one." },
+      { "template": "The alarm is in ninety minutes. You could still get some. Same answer?" }
+    ],
+    "referenceAnswer": "It has changed subject three times tonight, which tells me the subject is not the problem. This is a state, not an argument, and arguing with it treats it as though it has a point. I will let the thoughts be there without following them, accept that tomorrow will be tired and survivable, and stop adding the second layer of worrying about the worrying.",
+    "exemplars": [
+      "It has moved topic twice. That means the topic is not the issue and answering it will not end it.",
+      "Tomorrow will be tired. That is a real cost and a small one, and it does not need solving at 4am."
+    ]
+  },
+  {
+    "id": "anxiety-08",
+    "path": "anxiety",
+    "virtue": "courage",
+    "targetConcepts": ["amor-fati", "the-reframe"],
+    "opening": "It happened. The thing you spent two months dreading has actually happened, and you are standing in it now.",
+    "instinctOptions": ["Work out how it could have gone differently", "Deal with the next step only", "Tell people", "Sit down for a bit"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nSomeone asks whether you saw it coming. You did. That is somehow the worst part." },
+      { "template": "You realise you are almost relieved, because at least it is real now. Then you feel guilty about the relief. Same answer?" }
+    ],
+    "referenceAnswer": "This is now a fact rather than a possibility, and facts are workable in a way that dread is not. Relitigating whether it could have gone differently is a second injury on top of the first. The relief is not a betrayal, it is just what happens when the waiting ends. The only live question is what the best available move is between now and this evening.",
+    "exemplars": [
+      "The dreading is over, which is genuinely the harder half. What is left is just a problem.",
+      "I cannot un-happen it, and resisting it is a cost I would be adding on top of the actual cost."
+    ]
+  },
+  {
+    "id": "anxiety-09",
+    "path": "anxiety",
+    "virtue": "justice",
+    "targetConcepts": ["role-ethics", "others-opinions"],
+    "opening": "You have to tell someone something they will not want to hear. You have rewritten the opening line six times and not sent any of them.",
+    "instinctOptions": ["Send the softest version", "Do it in person instead", "Delay one more day", "Say it plainly and send"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nThey reply immediately: what is this about? You have not actually said the thing yet." },
+      { "template": "They take it badly. Not dramatically, just quietly, which is worse. Same answer?" }
+    ],
+    "referenceAnswer": "My role here is to be honest and kind, in that order, and I have been trying to be liked instead, which is a different job. Softening it further is not kindness, it is me managing my own discomfort at their expense. I will say the thing plainly, take responsibility for my part, and let their reaction be theirs rather than something I try to prevent in advance.",
+    "exemplars": [
+      "Six drafts is not care, it is me trying to find a version where they are not upset. That version does not exist.",
+      "Honest and kind. I have been optimising for liked, which is not one of my jobs here."
+    ]
+  },
+  {
+    "id": "anxiety-10",
+    "path": "anxiety",
+    "virtue": "temperance",
+    "targetConcepts": ["dichotomy-of-control", "the-pause"],
+    "opening": "Your teenager is two hours later than they said and not answering. You have called twice. The second one went straight through to voicemail.",
+    "instinctOptions": ["Call everyone you can think of", "Keep calling them", "Wait fifteen more minutes", "Get in the car"],
+    "escalations": [
+      { "template": "You said: \"{{answer}}\"\n\nAnother twenty minutes. Their location sharing is off, which it was not this morning." },
+      { "template": "They walk in, entirely fine, phone dead, mildly surprised you are up. Same answer?" }
+    ],
+    "referenceAnswer": "There is a short list of things that are actually mine here: call, check the obvious places, decide a time at which I escalate. Everything past that list is my imagination doing overtime, and it is not protecting them. When they walk in I want to meet them as someone who was worried, not as someone who is now angry about having been worried, because those two get confused very easily and the second one teaches them not to tell me things.",
+    "exemplars": [
+      "Make the short list of real actions, do them, and set a time to escalate. The rest is imagination, not vigilance.",
+      "When they get back, the fear will want to come out as anger. That is the moment I actually have to train."
+    ]
+  }
+]
