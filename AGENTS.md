@@ -45,3 +45,22 @@ Known differences that have already bitten:
   Never import the Supabase client from a screen.
 - The crisis guardrail in `src/domain/crisis.ts` runs on every piece of user free
   text before it reaches any scoring path. Do not add a path that bypasses it.
+
+## Backend
+
+The app runs fully offline on the local adapter. Setting both
+`EXPO_PUBLIC_SUPABASE_URL` and `EXPO_PUBLIC_SUPABASE_ANON_KEY` switches
+`src/data/index.ts` to the Supabase adapter; both satisfy the same interface, so
+no screen changes either way.
+
+- `supabase/migrations/0001_init.sql` - schema and RLS. Every user-owned table
+  is owner-only via `auth.uid()`. `peer_responses` has no policies at all
+  (RLS with zero policies denies everything) and is read only through the
+  `peer_response()` security-definer function, which returns a body string and
+  nothing else so authorship cannot leak.
+- `supabase/functions/` - Deno, excluded from the app's tsconfig. See its README.
+- Peer responses default to `approved = false`. Until moderated, the app falls
+  back to the authored exemplars in the bundle. Do not flip that default without
+  a moderation path in place.
+- The first session is anonymous (`signInAnonymously`), which still produces a
+  real `auth.uid()`. Linking a real identity later upgrades the same row.
